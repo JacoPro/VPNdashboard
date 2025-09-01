@@ -154,6 +154,8 @@
             color: white;
             font-weight: bold;
             font-size: 1.2rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         .app-info h3 {
@@ -390,7 +392,13 @@
         }
 
         function getAppIcon(appId) {
-            const icons = {
+            // Use real app store icons if available, fallback to text
+            if (allData && allData.appIcons && allData.appIcons[appId]) {
+                return `<img src="${allData.appIcons[appId]}" alt="${appId}" style="width: 100%; height: 100%; border-radius: 12px; object-fit: cover;">`;
+            }
+            
+            // Fallback to text icons
+            const textIcons = {
                 'nord': 'N',
                 'express': 'E',
                 'cyberghost': 'CG',
@@ -403,7 +411,7 @@
                 'pia': 'PIA',
                 'mullvad': 'M'
             };
-            return icons[appId] || '?';
+            return textIcons[appId] || '?';
         }
 
         function formatDate(dateString) {

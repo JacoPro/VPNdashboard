@@ -15,8 +15,7 @@
     {
       "id": "cyberghost",
       "name": "CyberGhost VPN",
-      "playStoreId": "de.mobileconcepts.cyberghost",
-      "appStoreId": 1204732597
+      "playStoreId": "de.mobileconcepts.cyberghost"
     },
     {
       "id": "surfshark",
@@ -29,12 +28,6 @@
       "name": "Proton VPN",
       "playStoreId": "ch.protonvpn.android",
       "appStoreId": 1437005085
-    },
-    {
-      "id": "exitlag",
-      "name": "ExitLag",
-      "playStoreId": "com.exitlag.app",
-      "appStoreId": 1523064032
     },
     {
       "id": "tunnelbear",
@@ -51,8 +44,7 @@
     {
       "id": "urban",
       "name": "Urban VPN",
-      "playStoreId": "com.urbanvpn.android",
-      "appStoreId": 1080171781
+      "playStoreId": "com.urbanvpn.android"
     },
     {
       "id": "pia",

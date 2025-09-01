@@ -1,5 +1,27 @@
 #!/usr/bin/env node
 
+// Node.js compatibility fixes for GitHub Actions
+try {
+  // Fix File API compatibility
+  if (typeof globalThis.File === 'undefined') {
+    globalThis.File = class File extends Blob {
+      constructor(chunks, name, options) {
+        super(chunks, options);
+        this.name = name;
+        this.lastModified = Date.now();
+      }
+    };
+  }
+  
+  // Fix fetch compatibility if needed
+  if (typeof globalThis.fetch === 'undefined') {
+    const fetch = require('node-fetch');
+    globalThis.fetch = fetch;
+  }
+} catch (error) {
+  console.warn('⚠️  Compatibility fix warning:', error.message);
+}
+
 const gplay = require('google-play-scraper');
 const store = require('app-store-scraper');
 const fs = require('fs').promises;
@@ -33,7 +55,8 @@ class StaticDataGenerator {
         downloads: app.installs,
         size: app.size,
         developer: app.developer,
-        url: app.url
+        url: app.url,
+        icon: app.icon || null
       };
     } catch (error) {
       console.warn(`⚠️  Play Store - ${appId}: ${error.message}`);
@@ -53,7 +76,8 @@ class StaticDataGenerator {
         downloads: 'N/A',
         size: app.size,
         developer: app.developer,
-        url: app.url
+        url: app.url,
+        icon: app.icon || null
       };
     } catch (error) {
       console.warn(`⚠️  App Store - ${appId}: ${error.message}`);
@@ -131,6 +155,27 @@ class StaticDataGenerator {
     return allAppsData;
   }
 
+  generateAppIcons(appsData) {
+    const appIcons = {};
+    
+    appsData.forEach(app => {
+      // Prefer iOS icon first (usually higher quality), fall back to Android
+      let appIcon = null;
+      
+      if (app.platforms.ios && app.platforms.ios.icon) {
+        appIcon = app.platforms.ios.icon;
+      } else if (app.platforms.android && app.platforms.android.icon) {
+        appIcon = app.platforms.android.icon;
+      }
+      
+      if (appIcon) {
+        appIcons[app.id] = appIcon;
+      }
+    });
+    
+    return appIcons;
+  }
+
   generateFeedData(appsData) {
     const feedData = [];
     
@@ -149,7 +194,8 @@ class StaticDataGenerator {
             downloads: data.downloads,
             size: data.size,
             developer: data.developer,
-            url: data.url
+            url: data.url,
+            icon: data.icon
           });
         }
       });
@@ -217,11 +263,15 @@ class StaticDataGenerator {
       // Generate statistics
       const stats = this.generateStats(feedData);
       
+      // Generate app icons mapping
+      const appIcons = this.generateAppIcons(appsData);
+      
       // Create final data structure
       const finalData = {
         apps: appsData,
         feed: feedData,
         stats: stats,
+        appIcons: appIcons,
         totalApps: appsData.length,
         metadata: {
           generatedAt: new Date().toISOString(),
