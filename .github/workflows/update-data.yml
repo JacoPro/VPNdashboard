@@ -25,14 +25,14 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
         cache: 'npm'
 
     - name: Install dependencies
       run: npm install --production
 
     - name: Scrape app store data
-      run: node scrape-data.js
+      run: node scrape-github.js
 
     - name: Prepare GitHub Pages files
       run: |
