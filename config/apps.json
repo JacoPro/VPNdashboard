@@ -1,0 +1,70 @@
+{
+  "vpnApps": [
+    {
+      "id": "nord",
+      "name": "NordVPN",
+      "playStoreId": "com.nordvpn.android",
+      "appStoreId": 905953485
+    },
+    {
+      "id": "express",
+      "name": "ExpressVPN",
+      "playStoreId": "com.expressvpn.vpn",
+      "appStoreId": 886492891
+    },
+    {
+      "id": "cyberghost",
+      "name": "CyberGhost VPN",
+      "playStoreId": "de.mobileconcepts.cyberghost",
+      "appStoreId": 1204732597
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark VPN",
+      "playStoreId": "com.surfshark.vpnclient.android",
+      "appStoreId": 1391782046
+    },
+    {
+      "id": "proton",
+      "name": "Proton VPN",
+      "playStoreId": "ch.protonvpn.android",
+      "appStoreId": 1437005085
+    },
+    {
+      "id": "exitlag",
+      "name": "ExitLag",
+      "playStoreId": "com.exitlag.app",
+      "appStoreId": 1523064032
+    },
+    {
+      "id": "tunnelbear",
+      "name": "TunnelBear VPN",
+      "playStoreId": "com.tunnelbear.android",
+      "appStoreId": 564842283
+    },
+    {
+      "id": "windscribe",
+      "name": "Windscribe VPN",
+      "playStoreId": "com.windscribe.vpn",
+      "appStoreId": 1129435228
+    },
+    {
+      "id": "urban",
+      "name": "Urban VPN",
+      "playStoreId": "com.urbanvpn.android",
+      "appStoreId": 1080171781
+    },
+    {
+      "id": "pia",
+      "name": "Private Internet Access VPN",
+      "playStoreId": "com.privateinternetaccess.android",
+      "appStoreId": 955626407
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad VPN",
+      "playStoreId": "net.mullvad.mullvadvpn",
+      "appStoreId": 1488466513
+    }
+  ]
+}
