@@ -1,0 +1,86 @@
+name: Update VPN App Data                                                   
+
+    on:
+      schedule:
+        # Run every 6 hours at minutes 0 (00:00, 06:00, 12:00, 18:00 UTC)
+        - cron: '0 */6 * * *'
+      workflow_dispatch: # Allow manual triggering
+      push:
+        branches: [ main ]
+        paths:
+          - 'config/apps.json'
+          - 'scrape-data.js'
+          - '.github/workflows/update-data.yml'
+
+    jobs:
+      update-data:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            token: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '18'
+            cache: 'npm'
+
+        - name: Install dependencies
+          run: npm install --production
+
+        - name: Scrape app store data
+          run: node scrape-data.js
+
+        - name: Prepare GitHub Pages files
+          run: |
+            cp static-index.html index.html
+            echo "GitHub Pages files prepared"
+
+        - name: Check for data changes
+          id: check-changes
+          run: |
+            if git diff --quiet data/ index.html; then
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+            else
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+            fi
+
+        - name: Commit and push changes
+          if: steps.check-changes.outputs.has_changes == 'true'
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add data/ index.html
+            git commit -m "🤖 Update VPN app data - $(date -u +'%Y-%m-%d %H:%M 
+    UTC')"
+            git push
+
+        - name: Create deployment summary
+          if: always()
+          run: |
+            echo "## 📊 VPN Dashboard Data Update" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Timestamp:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> 
+    $GITHUB_STEP_SUMMARY
+            echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+            echo "**Data Changes:** ${{ steps.check-changes.outputs.has_changes 
+    }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            if [ -f data/apps-data.json ]; then
+              TOTAL_APPS=$(node -p 
+    "JSON.parse(require('fs').readFileSync('data/apps-data.json', 
+    'utf8')).totalApps")
+              FEED_COUNT=$(node -p 
+    "JSON.parse(require('fs').readFileSync('data/apps-data.json', 
+    'utf8')).feed.length")
+              echo "**Apps Tracked:** $TOTAL_APPS" >> $GITHUB_STEP_SUMMARY
+              echo "**Feed Items:** $FEED_COUNT" >> $GITHUB_STEP_SUMMARY
+            fi
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
