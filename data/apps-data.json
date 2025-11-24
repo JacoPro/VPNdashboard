@@ -9,7 +9,7 @@
           "version": "VARY",
           "lastUpdated": "2025-11-11",
           "notes": "• Our “Products” tab is growing, and it’s about time to get it organized. “Your security suite” section will help you easily manage Threat Protection, Dark Web Monitor, and other features that are actively protecting you — or still waiting for their turn. And if you’re ready to extend your security, check out our other products.",
-          "rating": 4.5708313,
+          "rating": 4.570924,
           "downloads": "100,000,000+",
           "developer": "Nord Security",
           "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
@@ -17,15 +17,15 @@
         },
         "ios": {
           "platform": "ios",
-          "version": "8.57.0",
-          "lastUpdated": "2025-11-10",
-          "notes": "• We focused on refinements this time. The app is steadier, faster, and easier to enjoy.",
+          "version": "8.58.0",
+          "lastUpdated": "2025-11-24",
+          "notes": "• Threat Protection is back from a makeover, now more vibrant and put-together than ever. We're proud. It's thriving.",
           "rating": 4.6646,
           "downloads": "N/A",
-          "size": "196582400",
+          "size": "199318528",
           "developer": "Nordvpn S.A.",
           "url": "https://apps.apple.com/us/app/nordvpn-vpn-fast-secure/id905953485?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e9/28/a4e928fe-8167-e9b4-cb0a-b6d81340c2d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d6/e6/33d6e6da-0f6e-9d79-ee83-c966e367c7cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
         }
       }
     },
@@ -38,7 +38,7 @@
           "version": "12.38.0",
           "lastUpdated": "2025-11-13",
           "notes": "We’ve done a bit of spring cleaning in the codebase. All’s right in your ExpressVPN garden now.",
-          "rating": 4.7541676,
+          "rating": 4.7542815,
           "downloads": "50,000,000+",
           "developer": "ExpressVPN",
           "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
@@ -67,7 +67,7 @@
           "version": "8.32.0.3590",
           "lastUpdated": "2025-09-03",
           "notes": "Hi Ghosties, <br><br>We did some under-the-hood work and chased away bugs to make your VPN experience with us so much smoother. <br><br>There&#39;s more where these goodies came from, so make sure to keep an eye on us. <br><br>Stay safe and secure!",
-          "rating": 4.202788,
+          "rating": 4.2006297,
           "downloads": "10,000,000+",
           "developer": "CyberGhost SRL",
           "url": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost&hl=en&gl=us",
@@ -81,10 +81,10 @@
       "platforms": {
         "android": {
           "platform": "android",
-          "version": "3.22.2",
-          "lastUpdated": "2025-11-14",
-          "notes": "This update includes VPN enhancements, Antivirus scan optimizations, app performance improvements, and bug and visual fixes. Update the app and enjoy a smoother Surfshark experience.",
-          "rating": 4.59826,
+          "version": "3.22.3",
+          "lastUpdated": "2025-11-20",
+          "notes": "No update notes available",
+          "rating": 4.5974746,
           "downloads": "10,000,000+",
           "developer": "Surfshark B.V.",
           "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
@@ -113,7 +113,7 @@
           "version": "5.14.55.0",
           "lastUpdated": "2025-11-18",
           "notes": "- Minor stability improvements",
-          "rating": 4.6383486,
+          "rating": 4.6386285,
           "downloads": "50,000,000+",
           "developer": "Proton AG",
           "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
@@ -171,7 +171,7 @@
           "version": "3.94.1921",
           "lastUpdated": "2025-11-21",
           "notes": "Newsfeed promo fix.",
-          "rating": 4.6676073,
+          "rating": 4.667814,
           "downloads": "10,000,000+",
           "developer": "Windscribe",
           "url": "https://play.google.com/store/apps/details?id=com.windscribe.vpn&hl=en&gl=us",
@@ -200,7 +200,7 @@
           "version": "1.0.95",
           "lastUpdated": "2025-08-18",
           "notes": "🖥️ Enhanced Protection feature improvements.<br>🔧 Bug fixes - Improved server availability and speed.",
-          "rating": 4.4670053,
+          "rating": 4.4681935,
           "downloads": "10,000,000+",
           "developer": "Urban VPN",
           "url": "https://play.google.com/store/apps/details?id=com.urbanvpn.android&hl=en&gl=us",
@@ -217,7 +217,7 @@
           "version": "4.0.22",
           "lastUpdated": "2025-08-22",
           "notes": "- Updated gradle dependency to 8.12.1.<br>- Updated signup request to accept the device property.<br>- Fixed an obfuscation issue causing some connection attempts to fail.",
-          "rating": 4.511967,
+          "rating": 4.512249,
           "downloads": "10,000,000+",
           "developer": "PIA Private Internet Access, Inc",
           "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
@@ -254,20 +254,50 @@
         },
         "ios": {
           "platform": "ios",
-          "version": "2025.8",
-          "lastUpdated": "2025-10-10",
-          "notes": "Fix in-app purchase issues",
+          "version": "2025.9",
+          "lastUpdated": "2025-11-24",
+          "notes": "Quantum-resistant tunnels are now enabled by default.\nProblem reports can now include an account token to aid resolving issues with payments.\nWe've dropped support for iOS 16 and iOS 15.",
           "rating": 4.13217,
           "downloads": "N/A",
-          "size": "43432960",
+          "size": "41864192",
           "developer": "Mullvad VPN AB",
           "url": "https://apps.apple.com/us/app/mullvad-vpn/id1488466513?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/46/90/9e46907f-2047-29b0-8650-a94bee0bd8f0/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/5b/f0/795bf09b-61a5-c661-addb-e4483183fe06/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
         }
       }
     }
   ],
   "feed": [
+    {
+      "id": "nord_ios",
+      "appId": "nord",
+      "appName": "NordVPN",
+      "platform": "ios",
+      "version": "8.58.0",
+      "lastUpdated": "2025-11-24",
+      "notes": "• Threat Protection is back from a makeover, now more vibrant and put-together than ever. We're proud. It's thriving.",
+      "rating": 4.6646,
+      "downloads": "N/A",
+      "size": "199318528",
+      "developer": "Nordvpn S.A.",
+      "url": "https://apps.apple.com/us/app/nordvpn-vpn-fast-secure/id905953485?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d6/e6/33d6e6da-0f6e-9d79-ee83-c966e367c7cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "mullvad_ios",
+      "appId": "mullvad",
+      "appName": "Mullvad VPN",
+      "platform": "ios",
+      "version": "2025.9",
+      "lastUpdated": "2025-11-24",
+      "notes": "Quantum-resistant tunnels are now enabled by default.\nProblem reports can now include an account token to aid resolving issues with payments.\nWe've dropped support for iOS 16 and iOS 15.",
+      "rating": 4.13217,
+      "downloads": "N/A",
+      "size": "41864192",
+      "developer": "Mullvad VPN AB",
+      "url": "https://apps.apple.com/us/app/mullvad-vpn/id1488466513?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/5b/f0/795bf09b-61a5-c661-addb-e4483183fe06/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+    },
     {
       "id": "express_ios",
       "appId": "express",
@@ -291,11 +321,25 @@
       "version": "3.94.1921",
       "lastUpdated": "2025-11-21",
       "notes": "Newsfeed promo fix.",
-      "rating": 4.6676073,
+      "rating": 4.667814,
       "downloads": "10,000,000+",
       "developer": "Windscribe",
       "url": "https://play.google.com/store/apps/details?id=com.windscribe.vpn&hl=en&gl=us",
       "icon": "https://play-lh.googleusercontent.com/-LvpTcro1zqQ6YgN_Lx0M51C7wbspNvn4AQza93XxS-d5aV6K8Bq_hdGej3udhAekcs"
+    },
+    {
+      "id": "surfshark_android",
+      "appId": "surfshark",
+      "appName": "Surfshark VPN",
+      "platform": "android",
+      "version": "3.22.3",
+      "lastUpdated": "2025-11-20",
+      "notes": "No update notes available",
+      "rating": 4.5974746,
+      "downloads": "10,000,000+",
+      "developer": "Surfshark B.V.",
+      "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/zHJy62bNpp7Hp50ediuIPKoJh59KyhFGjynN89kPFOLv-SRrCMoYexBPLsDGg5iGe14KLA1AmAYDcUcLYeJK"
     },
     {
       "id": "surfshark_ios",
@@ -320,7 +364,7 @@
       "version": "5.14.55.0",
       "lastUpdated": "2025-11-18",
       "notes": "- Minor stability improvements",
-      "rating": 4.6383486,
+      "rating": 4.6386285,
       "downloads": "50,000,000+",
       "developer": "Proton AG",
       "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
@@ -340,20 +384,6 @@
       "developer": "Proton AG",
       "url": "https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085?uo=4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/49/fa/2f49faae-9595-0116-632b-c9091b62bae6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": "surfshark_android",
-      "appId": "surfshark",
-      "appName": "Surfshark VPN",
-      "platform": "android",
-      "version": "3.22.2",
-      "lastUpdated": "2025-11-14",
-      "notes": "This update includes VPN enhancements, Antivirus scan optimizations, app performance improvements, and bug and visual fixes. Update the app and enjoy a smoother Surfshark experience.",
-      "rating": 4.59826,
-      "downloads": "10,000,000+",
-      "developer": "Surfshark B.V.",
-      "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
-      "icon": "https://play-lh.googleusercontent.com/zHJy62bNpp7Hp50ediuIPKoJh59KyhFGjynN89kPFOLv-SRrCMoYexBPLsDGg5iGe14KLA1AmAYDcUcLYeJK"
     },
     {
       "id": "tunnelbear_android",
@@ -377,7 +407,7 @@
       "version": "12.38.0",
       "lastUpdated": "2025-11-13",
       "notes": "We’ve done a bit of spring cleaning in the codebase. All’s right in your ExpressVPN garden now.",
-      "rating": 4.7541676,
+      "rating": 4.7542815,
       "downloads": "50,000,000+",
       "developer": "ExpressVPN",
       "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
@@ -391,7 +421,7 @@
       "version": "VARY",
       "lastUpdated": "2025-11-11",
       "notes": "• Our “Products” tab is growing, and it’s about time to get it organized. “Your security suite” section will help you easily manage Threat Protection, Dark Web Monitor, and other features that are actively protecting you — or still waiting for their turn. And if you’re ready to extend your security, check out our other products.",
-      "rating": 4.5708313,
+      "rating": 4.570924,
       "downloads": "100,000,000+",
       "developer": "Nord Security",
       "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
@@ -411,21 +441,6 @@
       "developer": "TunnelBear, LLC",
       "url": "https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283?uo=4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/74/0f/12740f7f-acee-dda4-6fdd-cc02166ba5c5/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": "nord_ios",
-      "appId": "nord",
-      "appName": "NordVPN",
-      "platform": "ios",
-      "version": "8.57.0",
-      "lastUpdated": "2025-11-10",
-      "notes": "• We focused on refinements this time. The app is steadier, faster, and easier to enjoy.",
-      "rating": 4.6646,
-      "downloads": "N/A",
-      "size": "196582400",
-      "developer": "Nordvpn S.A.",
-      "url": "https://apps.apple.com/us/app/nordvpn-vpn-fast-secure/id905953485?uo=4",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e9/28/a4e928fe-8167-e9b4-cb0a-b6d81340c2d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
       "id": "windscribe_ios",
@@ -472,21 +487,6 @@
       "icon": "https://play-lh.googleusercontent.com/X3V8MJMnYasSOTLeFAN-EX8vKrckT2kxnPSeKRyGEU77pa-PVOjvKSvMdcOhnHX9aEg"
     },
     {
-      "id": "mullvad_ios",
-      "appId": "mullvad",
-      "appName": "Mullvad VPN",
-      "platform": "ios",
-      "version": "2025.8",
-      "lastUpdated": "2025-10-10",
-      "notes": "Fix in-app purchase issues",
-      "rating": 4.13217,
-      "downloads": "N/A",
-      "size": "43432960",
-      "developer": "Mullvad VPN AB",
-      "url": "https://apps.apple.com/us/app/mullvad-vpn/id1488466513?uo=4",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/46/90/9e46907f-2047-29b0-8650-a94bee0bd8f0/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": "cyberghost_android",
       "appId": "cyberghost",
       "appName": "CyberGhost VPN",
@@ -494,7 +494,7 @@
       "version": "8.32.0.3590",
       "lastUpdated": "2025-09-03",
       "notes": "Hi Ghosties, <br><br>We did some under-the-hood work and chased away bugs to make your VPN experience with us so much smoother. <br><br>There&#39;s more where these goodies came from, so make sure to keep an eye on us. <br><br>Stay safe and secure!",
-      "rating": 4.202788,
+      "rating": 4.2006297,
       "downloads": "10,000,000+",
       "developer": "CyberGhost SRL",
       "url": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost&hl=en&gl=us",
@@ -508,7 +508,7 @@
       "version": "4.0.22",
       "lastUpdated": "2025-08-22",
       "notes": "- Updated gradle dependency to 8.12.1.<br>- Updated signup request to accept the device property.<br>- Fixed an obfuscation issue causing some connection attempts to fail.",
-      "rating": 4.511967,
+      "rating": 4.512249,
       "downloads": "10,000,000+",
       "developer": "PIA Private Internet Access, Inc",
       "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
@@ -522,7 +522,7 @@
       "version": "1.0.95",
       "lastUpdated": "2025-08-18",
       "notes": "🖥️ Enhanced Protection feature improvements.<br>🔧 Bug fixes - Improved server availability and speed.",
-      "rating": 4.4670053,
+      "rating": 4.4681935,
       "downloads": "10,000,000+",
       "developer": "Urban VPN",
       "url": "https://play.google.com/store/apps/details?id=com.urbanvpn.android&hl=en&gl=us",
@@ -531,13 +531,13 @@
   ],
   "stats": {
     "totalApps": 10,
-    "recentUpdates": 5,
+    "recentUpdates": 8,
     "androidApps": 10,
     "iosApps": 8,
-    "lastUpdated": "2025-11-24T06:21:11.722Z"
+    "lastUpdated": "2025-11-24T12:27:00.687Z"
   },
   "appIcons": {
-    "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e9/28/a4e928fe-8167-e9b4-cb0a-b6d81340c2d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d6/e6/33d6e6da-0f6e-9d79-ee83-c966e367c7cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
     "express": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/01/ca/8201cae2-4f6f-b69e-1a34-4b3323f0ef4b/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
     "cyberghost": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI",
     "surfshark": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/9a/66/ed9a66db-d0db-612d-238c-7e093da1e6b0/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
@@ -546,12 +546,12 @@
     "windscribe": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/bb/24/dcbb2434-f3fa-0f5b-431c-d988808f5c63/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
     "urban": "https://play-lh.googleusercontent.com/uGBUhlrpfw7FvgUtpgik4FePOhoDrb8N41v3VCt1qWK2mYOZVq32IsxShLH5LRDbeg",
     "pia": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/de/6c/18de6c1b-e5a8-8c76-cea2-6af500b0ed82/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
-    "mullvad": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/46/90/9e46907f-2047-29b0-8650-a94bee0bd8f0/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+    "mullvad": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/5b/f0/795bf09b-61a5-c661-addb-e4483183fe06/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
   },
   "totalApps": 10,
   "metadata": {
-    "generatedAt": "2025-11-24T06:21:11.722Z",
-    "totalExecutionTime": 30,
+    "generatedAt": "2025-11-24T12:27:00.687Z",
+    "totalExecutionTime": 29,
     "successfulApps": 10
   }
 }
