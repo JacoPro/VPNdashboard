@@ -9,7 +9,7 @@
           "version": "VARY",
           "lastUpdated": "2025-12-01",
           "notes": "• We’re elevating your online security one release at a time. This update comes with improvements and fixes for a top-notch NordVPN experience.",
-          "rating": 4.5642176,
+          "rating": 4.56434,
           "downloads": "100,000,000+",
           "developer": "Nord Security",
           "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
@@ -38,7 +38,7 @@
           "version": "12.38.0",
           "lastUpdated": "2025-12-08",
           "notes": "We’ve done a bit of spring cleaning in the codebase. All’s right in your ExpressVPN garden now.",
-          "rating": 4.7431474,
+          "rating": 4.742724,
           "downloads": "50,000,000+",
           "developer": "ExpressVPN",
           "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
@@ -67,7 +67,7 @@
           "version": "8.32.0.3590",
           "lastUpdated": "2025-09-03",
           "notes": "Hi Ghosties, <br><br>We did some under-the-hood work and chased away bugs to make your VPN experience with us so much smoother. <br><br>There&#39;s more where these goodies came from, so make sure to keep an eye on us. <br><br>Stay safe and secure!",
-          "rating": 4.1964045,
+          "rating": 4.1974807,
           "downloads": "10,000,000+",
           "developer": "CyberGhost SRL",
           "url": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost&hl=en&gl=us",
@@ -84,11 +84,11 @@
           "version": "3.22.3",
           "lastUpdated": "2025-11-20",
           "notes": "No update notes available",
-          "rating": 4.58428,
+          "rating": 4.584046,
           "downloads": "10,000,000+",
           "developer": "Surfshark B.V.",
           "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/z1NtERzo1BXeZvZheqYKtSEv-3X_p0e_Ho1Bq74j4Vt5Pl_FmboPyuFHmRRmpu9qKWMnWqLXFuUYu2mCm2RZGcY"
+          "icon": "https://play-lh.googleusercontent.com/X4lP7ahL__HJBJkVu0M0RokMhhYaGwvLstUt5qr8JV9IqUcDn1k1qbX28WAd9E56hCU2YU59D4MnYC3r4jD2"
         },
         "ios": {
           "platform": "ios",
@@ -113,7 +113,7 @@
           "version": "5.14.76.0",
           "lastUpdated": "2025-12-01",
           "notes": "Minor UI and stability improvements",
-          "rating": 4.6618047,
+          "rating": 4.6618056,
           "downloads": "50,000,000+",
           "developer": "Proton AG",
           "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
@@ -150,15 +150,15 @@
         },
         "ios": {
           "platform": "ios",
-          "version": "4.9.0",
-          "lastUpdated": "2025-12-08",
-          "notes": "What’s new in TunnelBear 4.9.0\n- Paid user experience updated to include exclusive access to country selection and SplitBear.\n- Under-the-fur improvements.\n- Bear can’t beleaf what’s happening down under. \n- 10% more bears.",
+          "version": "4.8.0",
+          "lastUpdated": "2025-11-11",
+          "notes": "What’s new in TunnelBear 4.8.0!\n- Users can now explore the TunnelBear application before sharing their email and creating an account. Don’t take too long though, sheep can be a bit naggy.\n- Bushed some bugs out of fur.\n- 228% more chatty sheep.",
           "rating": 4.68245,
           "downloads": "N/A",
-          "size": "114393088",
+          "size": "107984896",
           "developer": "TunnelBear, LLC",
           "url": "https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/6a/26/1a6a261d-beea-ff45-0a27-f4dfe5417715/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/74/0f/12740f7f-acee-dda4-6fdd-cc02166ba5c5/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
         }
       }
     },
@@ -171,7 +171,7 @@
           "version": "3.95.1929",
           "lastUpdated": "2025-11-25",
           "notes": "* Added IP pinning and rotation<br>* Sorted regions based on the lowest-latency city<br>* Added Pro badge to the header<br>* Fixed app crash caused by reaching the maximum number of file descriptors<br>* Fixed issue where Newsfeed actions couldn&#39;t be clicked<br>* Added Slovak and Greek language support<br>* Upgraded OpenVPN and OpenSSL",
-          "rating": 4.673678,
+          "rating": 4.6748843,
           "downloads": "10,000,000+",
           "developer": "Windscribe",
           "url": "https://play.google.com/store/apps/details?id=com.windscribe.vpn&hl=en&gl=us",
@@ -217,7 +217,7 @@
           "version": "4.0.22",
           "lastUpdated": "2025-08-22",
           "notes": "- Updated gradle dependency to 8.12.1.<br>- Updated signup request to accept the device property.<br>- Fixed an obfuscation issue causing some connection attempts to fail.",
-          "rating": 4.5110927,
+          "rating": 4.5105624,
           "downloads": "10,000,000+",
           "developer": "PIA Private Internet Access, Inc",
           "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
@@ -276,26 +276,11 @@
       "version": "12.38.0",
       "lastUpdated": "2025-12-08",
       "notes": "We’ve done a bit of spring cleaning in the codebase. All’s right in your ExpressVPN garden now.",
-      "rating": 4.7431474,
+      "rating": 4.742724,
       "downloads": "50,000,000+",
       "developer": "ExpressVPN",
       "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
       "icon": "https://play-lh.googleusercontent.com/CnGsOmhIKfo1_IAnCUxAYXBaxkJ11rQXqPAGU_t29S6nVsrzTx-3OjMWFf2fk_b7u3g"
-    },
-    {
-      "id": "tunnelbear_ios",
-      "appId": "tunnelbear",
-      "appName": "TunnelBear VPN",
-      "platform": "ios",
-      "version": "4.9.0",
-      "lastUpdated": "2025-12-08",
-      "notes": "What’s new in TunnelBear 4.9.0\n- Paid user experience updated to include exclusive access to country selection and SplitBear.\n- Under-the-fur improvements.\n- Bear can’t beleaf what’s happening down under. \n- 10% more bears.",
-      "rating": 4.68245,
-      "downloads": "N/A",
-      "size": "114393088",
-      "developer": "TunnelBear, LLC",
-      "url": "https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283?uo=4",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/6a/26/1a6a261d-beea-ff45-0a27-f4dfe5417715/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
     },
     {
       "id": "mullvad_android",
@@ -334,7 +319,7 @@
       "version": "VARY",
       "lastUpdated": "2025-12-01",
       "notes": "• We’re elevating your online security one release at a time. This update comes with improvements and fixes for a top-notch NordVPN experience.",
-      "rating": 4.5642176,
+      "rating": 4.56434,
       "downloads": "100,000,000+",
       "developer": "Nord Security",
       "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
@@ -363,7 +348,7 @@
       "version": "5.14.76.0",
       "lastUpdated": "2025-12-01",
       "notes": "Minor UI and stability improvements",
-      "rating": 4.6618047,
+      "rating": 4.6618056,
       "downloads": "50,000,000+",
       "developer": "Proton AG",
       "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
@@ -392,7 +377,7 @@
       "version": "3.95.1929",
       "lastUpdated": "2025-11-25",
       "notes": "* Added IP pinning and rotation<br>* Sorted regions based on the lowest-latency city<br>* Added Pro badge to the header<br>* Fixed app crash caused by reaching the maximum number of file descriptors<br>* Fixed issue where Newsfeed actions couldn&#39;t be clicked<br>* Added Slovak and Greek language support<br>* Upgraded OpenVPN and OpenSSL",
-      "rating": 4.673678,
+      "rating": 4.6748843,
       "downloads": "10,000,000+",
       "developer": "Windscribe",
       "url": "https://play.google.com/store/apps/details?id=com.windscribe.vpn&hl=en&gl=us",
@@ -451,11 +436,11 @@
       "version": "3.22.3",
       "lastUpdated": "2025-11-20",
       "notes": "No update notes available",
-      "rating": 4.58428,
+      "rating": 4.584046,
       "downloads": "10,000,000+",
       "developer": "Surfshark B.V.",
       "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
-      "icon": "https://play-lh.googleusercontent.com/z1NtERzo1BXeZvZheqYKtSEv-3X_p0e_Ho1Bq74j4Vt5Pl_FmboPyuFHmRRmpu9qKWMnWqLXFuUYu2mCm2RZGcY"
+      "icon": "https://play-lh.googleusercontent.com/X4lP7ahL__HJBJkVu0M0RokMhhYaGwvLstUt5qr8JV9IqUcDn1k1qbX28WAd9E56hCU2YU59D4MnYC3r4jD2"
     },
     {
       "id": "surfshark_ios",
@@ -487,6 +472,21 @@
       "icon": "https://play-lh.googleusercontent.com/3RoSMZTo2xVwcOc23b0EtZXg5KJqQmSkOyf_ab50NoGCE2f97SUNLvSn1SBH2O2bk1tM4MQ455OX4WofVWSp6w"
     },
     {
+      "id": "tunnelbear_ios",
+      "appId": "tunnelbear",
+      "appName": "TunnelBear VPN",
+      "platform": "ios",
+      "version": "4.8.0",
+      "lastUpdated": "2025-11-11",
+      "notes": "What’s new in TunnelBear 4.8.0!\n- Users can now explore the TunnelBear application before sharing their email and creating an account. Don’t take too long though, sheep can be a bit naggy.\n- Bushed some bugs out of fur.\n- 228% more chatty sheep.",
+      "rating": 4.68245,
+      "downloads": "N/A",
+      "size": "107984896",
+      "developer": "TunnelBear, LLC",
+      "url": "https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/74/0f/12740f7f-acee-dda4-6fdd-cc02166ba5c5/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "id": "cyberghost_android",
       "appId": "cyberghost",
       "appName": "CyberGhost VPN",
@@ -494,7 +494,7 @@
       "version": "8.32.0.3590",
       "lastUpdated": "2025-09-03",
       "notes": "Hi Ghosties, <br><br>We did some under-the-hood work and chased away bugs to make your VPN experience with us so much smoother. <br><br>There&#39;s more where these goodies came from, so make sure to keep an eye on us. <br><br>Stay safe and secure!",
-      "rating": 4.1964045,
+      "rating": 4.1974807,
       "downloads": "10,000,000+",
       "developer": "CyberGhost SRL",
       "url": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost&hl=en&gl=us",
@@ -508,7 +508,7 @@
       "version": "4.0.22",
       "lastUpdated": "2025-08-22",
       "notes": "- Updated gradle dependency to 8.12.1.<br>- Updated signup request to accept the device property.<br>- Fixed an obfuscation issue causing some connection attempts to fail.",
-      "rating": 4.5110927,
+      "rating": 4.5105624,
       "downloads": "10,000,000+",
       "developer": "PIA Private Internet Access, Inc",
       "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
@@ -531,10 +531,10 @@
   ],
   "stats": {
     "totalApps": 10,
-    "recentUpdates": 4,
+    "recentUpdates": 3,
     "androidApps": 10,
     "iosApps": 8,
-    "lastUpdated": "2025-12-09T06:21:52.467Z"
+    "lastUpdated": "2025-12-09T12:27:49.912Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d6/e6/33d6e6da-0f6e-9d79-ee83-c966e367c7cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
@@ -542,7 +542,7 @@
     "cyberghost": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI",
     "surfshark": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/9a/66/ed9a66db-d0db-612d-238c-7e093da1e6b0/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
     "proton": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/b3/26/4fb32621-41ca-3f31-29f3-8e59c0e545d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-    "tunnelbear": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/6a/26/1a6a261d-beea-ff45-0a27-f4dfe5417715/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "tunnelbear": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/74/0f/12740f7f-acee-dda4-6fdd-cc02166ba5c5/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "windscribe": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/f1/04/01f104ec-5ebf-b9bd-b529-5d231dd7fed8/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
     "urban": "https://play-lh.googleusercontent.com/uGBUhlrpfw7FvgUtpgik4FePOhoDrb8N41v3VCt1qWK2mYOZVq32IsxShLH5LRDbeg",
     "pia": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/02/7d/fd027dea-06ff-869e-55f1-3ce11fe0f939/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
@@ -550,7 +550,7 @@
   },
   "totalApps": 10,
   "metadata": {
-    "generatedAt": "2025-12-09T06:21:52.467Z",
+    "generatedAt": "2025-12-09T12:27:49.912Z",
     "totalExecutionTime": 30,
     "successfulApps": 10
   }
