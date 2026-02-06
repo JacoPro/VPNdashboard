@@ -15,7 +15,8 @@
     {
       "id": "cyberghost",
       "name": "CyberGhost VPN",
-      "playStoreId": "de.mobileconcepts.cyberghost"
+      "playStoreId": "de.mobileconcepts.cyberghost",
+      "appStoreId": 583009522
     },
     {
       "id": "surfshark",
@@ -42,21 +43,128 @@
       "appStoreId": 1129435228
     },
     {
-      "id": "urban",
-      "name": "Urban VPN",
-      "playStoreId": "com.urbanvpn.android"
-    },
-    {
-      "id": "pia",
-      "name": "Private Internet Access VPN",
-      "playStoreId": "com.privateinternetaccess.android",
-      "appStoreId": 955626407
-    },
-    {
       "id": "mullvad",
       "name": "Mullvad VPN",
       "playStoreId": "net.mullvad.mullvadvpn",
       "appStoreId": 1488466513
+    },
+    {
+      "id": "pia",
+      "name": "Private Internet Access",
+      "playStoreId": "com.privateinternetaccess.android",
+      "appStoreId": 955626407
+    },
+    {
+      "id": "purevpn",
+      "name": "PureVPN",
+      "playStoreId": "com.gaditek.purevpnics",
+      "appStoreId": 594506418
+    },
+    {
+      "id": "torguard",
+      "name": "TorGuard VPN",
+      "playStoreId": "net.torguard.openvpn.client",
+      "appStoreId": 988743799
+    },
+    {
+      "id": "hideme",
+      "name": "Hide.me VPN",
+      "playStoreId": "hideme.android.vpn",
+      "appStoreId": 953040671
+    },
+    {
+      "id": "ivpn",
+      "name": "IVPN",
+      "playStoreId": "net.ivpn.client",
+      "appStoreId": 1193122683
+    },
+    {
+      "id": "vyprvpn",
+      "name": "VyprVPN",
+      "playStoreId": "com.goldenfrog.vyprvpn.app",
+      "appStoreId": 577635689
+    },
+    {
+      "id": "airvpn",
+      "name": "AirVPN",
+      "playStoreId": "org.airvpn.eddie"
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender VPN",
+      "playStoreId": "com.bitdefender.vpn",
+      "appStoreId": 1499633482
+    },
+    {
+      "id": "veepn",
+      "name": "VeePN",
+      "playStoreId": "com.vpnproxy.connect",
+      "appStoreId": 1246703610
+    },
+    {
+      "id": "ipvanish",
+      "name": "IPVanish",
+      "playStoreId": "com.ixolit.ipvanish",
+      "appStoreId": 763638165
+    },
+    {
+      "id": "astrill",
+      "name": "Astrill VPN",
+      "playStoreId": "com.astrill.astrillvpn",
+      "appStoreId": 572953702
+    },
+    {
+      "id": "ovpn",
+      "name": "OVPN",
+      "playStoreId": "com.ovpn.android",
+      "appStoreId": 1520543719
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard VPN",
+      "playStoreId": "com.adguard.vpn",
+      "appStoreId": 1525373602
+    },
+    {
+      "id": "perfectprivacy",
+      "name": "Perfect Privacy",
+      "playStoreId": "com.perfectprivacy.android"
+    },
+    {
+      "id": "hma",
+      "name": "HMA VPN",
+      "playStoreId": "com.hidemyass.hidemyassprovpn",
+      "appStoreId": 675102189
+    },
+    {
+      "id": "vpnac",
+      "name": "VPN.ac",
+      "playStoreId": "ac.vpn.androidapp",
+      "appStoreId": 1162124975
+    },
+    {
+      "id": "privado",
+      "name": "PrivadoVPN",
+      "playStoreId": "io.privado.android",
+      "appStoreId": 1498920805
+    },
+    {
+      "id": "hotspotshield",
+      "name": "Hotspot Shield",
+      "playStoreId": "hotspotshield.android.vpn",
+      "appStoreId": 443369807
+    },
+    {
+      "id": "clearvpn",
+      "name": "ClearVPN",
+      "playStoreId": "com.macpaw.clearvpn.android",
+      "appStoreId": 1532377665
+    },
+    {
+      "id": "mozilla",
+      "name": "Mozilla VPN",
+      "playStoreId": "org.mozilla.firefox.vpn",
+      "appStoreId": 1489407738
     }
   ]
 }

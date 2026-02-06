@@ -9,11 +9,17 @@
           "version": "VARY",
           "lastUpdated": "2026-02-04",
           "notes": "• Sprinting to your phone just to see it’s a scam call — that’s unnecessary cardio. With call blocking, you can now automatically block scam and telemarketing calls. Simply head to Call Protection &gt; Call blocking, select the categories you’d like to avoid, and enjoy your peace.<br>Available with certain subscription plans in the US, Canada, Japan, and the UK.",
-          "rating": 4.5759563,
+          "rating": 4.5758786,
           "downloads": "100,000,000+",
           "developer": "Nord Security",
           "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/zJ3ysMhOnrgMgkxWibuHu_MlzfnpM96mriUfm8f898BMnDFmXa9peQvIaClA3KuBeZk"
+          "icon": "https://play-lh.googleusercontent.com/zJ3ysMhOnrgMgkxWibuHu_MlzfnpM96mriUfm8f898BMnDFmXa9peQvIaClA3KuBeZk",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$2.99 - $199.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -25,7 +31,13 @@
           "size": "225328128",
           "developer": "Nordvpn S.A.",
           "url": "https://apps.apple.com/us/app/nordvpn-vpn-fast-secure/id905953485?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
         }
       }
     },
@@ -42,7 +54,13 @@
           "downloads": "50,000,000+",
           "developer": "ExpressVPN",
           "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/CnGsOmhIKfo1_IAnCUxAYXBaxkJ11rQXqPAGU_t29S6nVsrzTx-3OjMWFf2fk_b7u3g"
+          "icon": "https://play-lh.googleusercontent.com/CnGsOmhIKfo1_IAnCUxAYXBaxkJ11rQXqPAGU_t29S6nVsrzTx-3OjMWFf2fk_b7u3g",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$9.99 - $116.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -54,7 +72,13 @@
           "size": "223387648",
           "developer": "Express VPN",
           "url": "https://apps.apple.com/us/app/expressvpn-secure-fast-vpn/id886492891?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/f2/b5/dcf2b598-1532-f1dc-d039-326077b5f038/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/f2/b5/dcf2b598-1532-f1dc-d039-326077b5f038/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
         }
       }
     },
@@ -71,7 +95,31 @@
           "downloads": "10,000,000+",
           "developer": "CyberGhost SRL",
           "url": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI"
+          "icon": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$2.99 - $64.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "8.4.18",
+          "lastUpdated": "2026-01-13",
+          "notes": "We made some small tweaks and fixes to keep your app experience top-notch.",
+          "rating": 4.21142,
+          "downloads": "N/A",
+          "size": "44299264",
+          "developer": "CyberGhost SRL",
+          "url": "https://apps.apple.com/us/app/cyberghost-safe-private-vpn/id583009522?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/56/32/335632d1-4464-6863-1119-561cd497f82d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
         }
       }
     },
@@ -84,11 +132,17 @@
           "version": "3.24.0",
           "lastUpdated": "2026-02-03",
           "notes": "We&#39;ve made a few improvements to enhance the reliability of our ad blocker, Clean Web;<br>Enjoy a smoother VPN with our latest performance and stability fixes.",
-          "rating": 4.5917478,
+          "rating": 4.592103,
           "downloads": "10,000,000+",
           "developer": "Surfshark B.V.",
           "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/wClkU3TA-rkOFC5dyoYkUjQNSzvxe9URgHn1Q09Kk1tx8piVe4mraaJTmeSKa8ADGRY"
+          "icon": "https://play-lh.googleusercontent.com/wClkU3TA-rkOFC5dyoYkUjQNSzvxe9URgHn1Q09Kk1tx8piVe4mraaJTmeSKa8ADGRY",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$0.99 - $119.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -100,7 +154,13 @@
           "size": "583025664",
           "developer": "Surfshark",
           "url": "https://apps.apple.com/us/app/surfshark-vpn-fast-vpn-app/id1391782046?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/ca/ea/dfcaeabc-53ea-8d29-144a-a5e189dcb220/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/ca/ea/dfcaeabc-53ea-8d29-144a-a5e189dcb220/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
         }
       }
     },
@@ -113,11 +173,17 @@
           "version": "5.15.9.4",
           "lastUpdated": "2026-02-03",
           "notes": "Minor UI and stability improvements",
-          "rating": 4.6962347,
+          "rating": 4.6964726,
           "downloads": "50,000,000+",
           "developer": "Proton AG",
           "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/hferjPeJ9_aWi_r5t8L0qOAwU4ZWAyduYmRkYodJOylRKwOxPI_117GzVSkAnhaNOw"
+          "icon": "https://play-lh.googleusercontent.com/hferjPeJ9_aWi_r5t8L0qOAwU4ZWAyduYmRkYodJOylRKwOxPI_117GzVSkAnhaNOw",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$9.99 - $119.88 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -129,7 +195,13 @@
           "size": "235355136",
           "developer": "Proton AG",
           "url": "https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/3c/87/183c875f-e7a8-82fb-966f-f5ddbba6336b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/3c/87/183c875f-e7a8-82fb-966f-f5ddbba6336b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
         }
       }
     },
@@ -146,7 +218,13 @@
           "downloads": "10,000,000+",
           "developer": "TunnelBear, LLC",
           "url": "https://play.google.com/store/apps/details?id=com.tunnelbear.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/3RoSMZTo2xVwcOc23b0EtZXg5KJqQmSkOyf_ab50NoGCE2f97SUNLvSn1SBH2O2bk1tM4MQ455OX4WofVWSp6w"
+          "icon": "https://play-lh.googleusercontent.com/3RoSMZTo2xVwcOc23b0EtZXg5KJqQmSkOyf_ab50NoGCE2f97SUNLvSn1SBH2O2bk1tM4MQ455OX4WofVWSp6w",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$0.99 - $83.27 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -158,7 +236,13 @@
           "size": "125484032",
           "developer": "TunnelBear, LLC",
           "url": "https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/26/a8/5926a8d6-7ea7-c8ba-5949-da7806db7b0f/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/26/a8/5926a8d6-7ea7-c8ba-5949-da7806db7b0f/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
         }
       }
     },
@@ -175,7 +259,13 @@
           "downloads": "10,000,000+",
           "developer": "Windscribe",
           "url": "https://play.google.com/store/apps/details?id=com.windscribe.vpn&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/-LvpTcro1zqQ6YgN_Lx0M51C7wbspNvn4AQza93XxS-d5aV6K8Bq_hdGej3udhAekcs"
+          "icon": "https://play-lh.googleusercontent.com/-LvpTcro1zqQ6YgN_Lx0M51C7wbspNvn4AQza93XxS-d5aV6K8Bq_hdGej3udhAekcs",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$3.99 - $94.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -187,53 +277,13 @@
           "size": "123686912",
           "developer": "Windscribe Limited",
           "url": "https://apps.apple.com/us/app/vpn-windscribe-fast-secure/id1129435228?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/7d/e1/187de1b3-c141-002f-cb67-c81fddc75334/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg"
-        }
-      }
-    },
-    {
-      "id": "urban",
-      "name": "Urban VPN",
-      "platforms": {
-        "android": {
-          "platform": "android",
-          "version": "1.0.97",
-          "lastUpdated": "2025-12-12",
-          "notes": "🖥️ Enhanced Protection feature improvements.<br>🔧 Bug fixes - Improved server availability and speed.",
-          "rating": 4.3743963,
-          "downloads": "10,000,000+",
-          "developer": "Urban VPN",
-          "url": "https://play.google.com/store/apps/details?id=com.urbanvpn.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/uGBUhlrpfw7FvgUtpgik4FePOhoDrb8N41v3VCt1qWK2mYOZVq32IsxShLH5LRDbeg"
-        }
-      }
-    },
-    {
-      "id": "pia",
-      "name": "Private Internet Access VPN",
-      "platforms": {
-        "android": {
-          "platform": "android",
-          "version": "4.0.23",
-          "lastUpdated": "2026-02-02",
-          "notes": "No update notes available",
-          "rating": 4.523628,
-          "downloads": "10,000,000+",
-          "developer": "PIA Private Internet Access, Inc",
-          "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/pjak9VEb8yALzrZnL6fAA8DlvR3GDwmyHwXK8kcl3PnUN9Aonr3CMQSnZZ0HzSONDWY"
-        },
-        "ios": {
-          "platform": "ios",
-          "version": "3.26.4",
-          "lastUpdated": "2026-01-21",
-          "notes": "We've improved overall app performance and reliability with fixes for the home screen widget VPN toggle, faster connections on captive WiFi networks (hotels, airports), and general bug fixes.",
-          "rating": 4.69061,
-          "downloads": "N/A",
-          "size": "75615232",
-          "developer": "Private Internet Access, Inc.",
-          "url": "https://apps.apple.com/us/app/vpn-by-private-internet-access/id955626407?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/15/b6/6515b664-41a9-e28b-e840-befdb65406b1/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/7d/e1/187de1b3-c141-002f-cb67-c81fddc75334/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
         }
       }
     },
@@ -250,7 +300,13 @@
           "downloads": "1,000,000+",
           "developer": "Mullvad VPN AB",
           "url": "https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn&hl=en&gl=us",
-          "icon": "https://play-lh.googleusercontent.com/X3V8MJMnYasSOTLeFAN-EX8vKrckT2kxnPSeKRyGEU77pa-PVOjvKSvMdcOhnHX9aEg"
+          "icon": "https://play-lh.googleusercontent.com/X3V8MJMnYasSOTLeFAN-EX8vKrckT2kxnPSeKRyGEU77pa-PVOjvKSvMdcOhnHX9aEg",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$5.99 - $17.97 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
         },
         "ios": {
           "platform": "ios",
@@ -262,14 +318,801 @@
           "size": "40729600",
           "developer": "Mullvad VPN AB",
           "url": "https://apps.apple.com/us/app/mullvad-vpn/id1488466513?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/2e/5a/e82e5a8a-abfc-83ac-4420-2d77512d3368/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/2e/5a/e82e5a8a-abfc-83ac-4420-2d77512d3368/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "pia",
+      "name": "Private Internet Access",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "4.0.23",
+          "lastUpdated": "2026-02-02",
+          "notes": "No update notes available",
+          "rating": 4.523628,
+          "downloads": "10,000,000+",
+          "developer": "PIA Private Internet Access, Inc",
+          "url": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/pjak9VEb8yALzrZnL6fAA8DlvR3GDwmyHwXK8kcl3PnUN9Aonr3CMQSnZZ0HzSONDWY",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$5.90 - $74.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "3.26.4",
+          "lastUpdated": "2026-01-21",
+          "notes": "We've improved overall app performance and reliability with fixes for the home screen widget VPN toggle, faster connections on captive WiFi networks (hotels, airports), and general bug fixes.",
+          "rating": 4.69061,
+          "downloads": "N/A",
+          "size": "75615232",
+          "developer": "Private Internet Access, Inc.",
+          "url": "https://apps.apple.com/us/app/vpn-by-private-internet-access/id955626407?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/15/b6/6515b664-41a9-e28b-e840-befdb65406b1/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "purevpn",
+      "name": "PureVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "8.94.25",
+          "lastUpdated": "2026-01-21",
+          "notes": "We have rearranged your bottom nav items for a more intuitive experience, so you can get to what matters most even faster.",
+          "rating": 3.3181148,
+          "downloads": "5,000,000+",
+          "developer": "PureVPN",
+          "url": "https://play.google.com/store/apps/details?id=com.gaditek.purevpnics&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/3oesJGWl5C0jKqjz1YV3MHFCaOnTreL-JxoVsm4zpncMyy_oLVdWDw5WpPs909VPY_s",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$0.99 - $89.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "9.64.1",
+          "lastUpdated": "2026-02-04",
+          "notes": "Public Wi-Fi? We’ve got your back.\nAuto Connect now auto-activates VPN on risky networks. You stay safe without doing a thing.",
+          "rating": 4.36474,
+          "downloads": "N/A",
+          "size": "469125120",
+          "developer": "PureVPN",
+          "url": "https://apps.apple.com/us/app/purevpn-fast-and-secure-vpn/id594506418?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/2b/2a/fa2b2ad8-dacb-fd1c-8d29-f15af3019d67/AppIcon-0-1x_U007emarketing-0-8-0-GLES2_U002c0-85-220-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "torguard",
+      "name": "TorGuard VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "VARY",
+          "lastUpdated": "2025-11-04",
+          "notes": " - General performance improvements and stability enhancements.<br> - Updated core libraries and dependencies for improved compatibility with the latest Android versions.",
+          "rating": 4.419355,
+          "downloads": "1,000,000+",
+          "developer": "TorGuard",
+          "url": "https://play.google.com/store/apps/details?id=net.torguard.openvpn.client&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/tZax1_TnjDet6hGNc95_q1Tb3tyNi-7v8n2PXqg2lVp-BHd3s94HY79NPgIhGrQ44w",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "Everyone",
+          "genre": "Communication"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.2.11",
+          "lastUpdated": "2024-03-27",
+          "notes": "Bug fix",
+          "rating": 4.65485,
+          "downloads": "N/A",
+          "size": "61706240",
+          "developer": "VPNetworks LLC",
+          "url": "https://apps.apple.com/us/app/private-secure-vpn-torguard/id988743799?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/38/13/36381388-3a04-d3f9-d70f-e144f3d67f17/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "hideme",
+      "name": "Hide.me VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "6.0.0",
+          "lastUpdated": "2025-09-29",
+          "notes": "UX enhancements ",
+          "rating": 4.3489795,
+          "downloads": "1,000,000+",
+          "developer": "eVenture Limited",
+          "url": "https://play.google.com/store/apps/details?id=hideme.android.vpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/35uOvFwAHQNGs_AOGH7ei1czH9ZYW9nUSOH74nPcHEVh-Rsvp6kJKFaqMbq-ZcGIXEg",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$1.15 - $79.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "6.0.0",
+          "lastUpdated": "2025-09-30",
+          "notes": "Bugfixes and performance improvements.",
+          "rating": 4.52926,
+          "downloads": "N/A",
+          "size": "169339904",
+          "developer": "eVenture",
+          "url": "https://apps.apple.com/us/app/hide-me-vpn/id953040671?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/b3/cd/27b3cdf6-996b-ac8c-8fb4-07fb697e40dd/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "ivpn",
+      "name": "IVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "2.11.2",
+          "lastUpdated": "2025-10-13",
+          "notes": "[FIXED] “Add Time” opened ivpn.net instead of Google Play  ",
+          "rating": 3.4,
+          "downloads": "500,000+",
+          "developer": "Privatus GmbH",
+          "url": "https://play.google.com/store/apps/details?id=net.ivpn.client&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/AcTHJNwoW5CtUTm5-qrBoRBRDvtg9xGAKTemVmaTuwwCcBqN64JqgGcIcAn3GmH0e0s",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$0.99 - $244.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.13.0",
+          "lastUpdated": "2025-12-08",
+          "notes": "[IMPROVED] Enhanced connectivity and stability for V2Ray obfuscation  \n[IMPROVED] Added support for multiple custom DNS servers",
+          "rating": 4.05668,
+          "downloads": "N/A",
+          "size": "63350784",
+          "developer": "IVPN Limited",
+          "url": "https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/c6/db/84c6db3f-e30d-6d00-bcda-2a2538b205b1/AppIcon-0-0-1x_U007emarketing-0-8-0-512MB-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "vyprvpn",
+      "name": "VyprVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "VARY",
+          "lastUpdated": "2025-11-20",
+          "notes": "Improve in-app registration workflow to alleviate user confusion and subscription errors.",
+          "rating": 4.5500693,
+          "downloads": "5,000,000+",
+          "developer": "Golden Frog, GmbH",
+          "url": "https://play.google.com/store/apps/details?id=com.goldenfrog.vyprvpn.app&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/pJ5Lbec8haeZJN0dPAtPe_JI2cKAMXMiwedVk5_zkaUiqYy-nyjMbOyf_vciO2elrqA",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$5.00 - $80.00 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "6.0.4",
+          "lastUpdated": "2025-11-22",
+          "notes": "Improve in-app registration workflow to alleviate user confusion and subscription errors.",
+          "rating": 4.69705,
+          "downloads": "N/A",
+          "size": "44956672",
+          "developer": "Golden Frog",
+          "url": "https://apps.apple.com/us/app/vyprvpn-vpn-secure-private/id577635689?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/9c/0a/219c0a4d-489d-ed3d-7d70-3028b37258be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "airvpn",
+      "name": "AirVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "3.3.0",
+          "lastUpdated": "2025-10-22",
+          "notes": "* Full compatibility from Android 5.1 to Android 16<br>* New and improved NetworkMonitor<br>* Improvements in ergonomics for faster and more comfortable use<br>* Updated OpenSSL, OpenVPN3-AirVPN and WireGuard libraries<br>* Ability to start and connect during the device bootstrap on all supported Android TV and Android versions, with or without &quot;Always on VPN&quot;<br>* Opt in ability to auto connect when the app is launched<br>* Updated code, SDK 16 100% compliant",
+          "rating": 3.58,
+          "downloads": "100,000+",
+          "developer": "AirVPN",
+          "url": "https://play.google.com/store/apps/details?id=org.airvpn.eddie&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/8lcLShgY_JFneUYffeB9nE6T-ipYbQe7BTgSxHZSQRenun0oasIbN_jlIOYEYR4nwQ",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "Everyone",
+          "genre": "Communication"
+        }
+      }
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "2.2.7.160",
+          "lastUpdated": "2025-12-09",
+          "notes": "Introducing the new VPN! <br>With your feedback guiding our strategy we worked hard to transform the VPN into an excellent privacy solution. We&#39;re excited to announce a major update that includes important improvements and cool new features.<br><br>The modern and visually appealing new look allows faster navigation and easy customization.<br><br>Double-hop adds an extra layer of obfuscation for those who take no chances in securing their privacy.",
+          "rating": 4.755024,
+          "downloads": "1,000,000+",
+          "developer": "Bitdefender",
+          "url": "https://play.google.com/store/apps/details?id=com.bitdefender.vpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/h9fEBB4F387HMGsR225BIHy5SQMnxW_KA0qq5T28NHucS1xMbBKJv1sftFI-ppC1OpI",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$6.99 - $69.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.3.20",
+          "lastUpdated": "2025-12-02",
+          "notes": "Introducing the new Bitdefender VPN\n\nThanks to your feedback, we’ve transformed Bitdefender VPN into an even more powerful privacy protection solution. This major update includes:\n\n- A modern and streamlined design for faster navigation and easier customisation  \n- Support for the WireGuard protocol to boost speed without compromising security  \n- New Double-Hop feature for an extra layer of privacy protection  \n- Improved performance and user experience across all platforms",
+          "rating": 4.80668,
+          "downloads": "N/A",
+          "size": "288933888",
+          "developer": "Bitdefender SRL",
+          "url": "https://apps.apple.com/us/app/bitdefender-vpn-fast-secure/id1499633482?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/a7/30/fda73056-e701-0619-ae22-cfd4bcdbde92/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "veepn",
+      "name": "VeePN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "3.8.5",
+          "lastUpdated": "2025-12-23",
+          "notes": "The new update has come. What&#39;s new:<br>- UI improvements  <br>- Small bug fixes<br>- General improvements of the service performance<br><br>Enjoy your VeePN the same but somewhat better. We are ready to assist you with any questions you have. Don&#39;t hesitate to email us at support@veepn.com",
+          "rating": 4.2431192,
+          "downloads": "1,000,000+",
+          "developer": "VeePN Corp.",
+          "url": "https://play.google.com/store/apps/details?id=com.vpnproxy.connect&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/2NF3DvGzDrXW27uKikP5qtDe5oz_H4whlaNKfnBCioG1d5ZSjAH-4ti_MuLvM62KcIA",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$2.99 - $199.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "3.3.23",
+          "lastUpdated": "2026-02-05",
+          "notes": "• This update includes several bug fixes to enhance the overall performance of the app\n• Do you have any thoughts or suggestions? Please reach out to us at support@veepn.com\n\nWe appreciate your continued support. Thanks for choosing our app!",
+          "rating": 4.48442,
+          "downloads": "N/A",
+          "size": "107736064",
+          "developer": "Veepn Corp",
+          "url": "https://apps.apple.com/us/app/vpn-proxy-master-veepn/id1246703610?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/6f/bd/ac6fbd29-aa93-a481-5f74-e013fe7e6d2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "ipvanish",
+      "name": "IPVanish",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "VARY",
+          "lastUpdated": "2026-01-19",
+          "notes": "+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.<br><br>With every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we&#39;ll help find a fix.",
+          "rating": 4.4100266,
+          "downloads": "10,000,000+",
+          "developer": "IPVanish VPN",
+          "url": "https://play.google.com/store/apps/details?id=com.ixolit.ipvanish&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/d1eWm7Db58NeIvC74ngS7W6TgKDQX1_BNN6HY4ZHqu_Ptq4kH6NuuU3T5R_tL8XOg0Fa",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$4.99 - $89.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "4.28.1",
+          "lastUpdated": "2025-12-11",
+          "notes": "+ We’ve added OpenVPN protocol support, currently in beta.\n+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.\n+ Virtual servers are now indicated with an icon in the Locations list.\n\nWith every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we'll help find a fix.",
+          "rating": 4.55206,
+          "downloads": "N/A",
+          "size": "83148800",
+          "developer": "IPVanish, Inc.",
+          "url": "https://apps.apple.com/us/app/ipvanish-ip-location-changer/id763638165?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/db/10/d8db1052-148c-8141-5d3b-5a586088b23f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "astrill",
+      "name": "Astrill VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "3.14.55",
+          "lastUpdated": "2025-11-22",
+          "notes": "New: OpenVPN Smart mode<br>New: Auto protocol<br>New: searchable server list<br><br>Fix: Minor UI changes<br>Fix: Improved OpenWeb stability<br>Fix: StealthVPN crash fixes",
+          "rating": 3.0873015,
+          "downloads": "1,000,000+",
+          "developer": "Veloxee Corp.",
+          "url": "https://play.google.com/store/apps/details?id=com.astrill.astrillvpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/QdPa_xP5wAcxmBdWl69oY1OZ4Rquf4Xaxe4tQJgRC3trPEoTiPRKvhLXyAKrBeFXyjs",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "Everyone",
+          "genre": "Productivity"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.3.8",
+          "lastUpdated": "2025-09-09",
+          "notes": "Bug fixes",
+          "rating": 3.67292,
+          "downloads": "N/A",
+          "size": "17925120",
+          "developer": "Veloxee Corp.",
+          "url": "https://apps.apple.com/us/app/astrill-vpn-client/id572953702?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/d3/07/9dd307f7-7975-4d5f-ab59-d7c51ed55a65/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "ovpn",
+      "name": "OVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "0.18.0",
+          "lastUpdated": "2025-08-22",
+          "notes": "Improved welcome screen, allow users to manage their subscription &amp; Firestick bug fixes.",
+          "rating": 2.7222223,
+          "downloads": "50,000+",
+          "developer": "OVPN",
+          "url": "https://play.google.com/store/apps/details?id=com.ovpn.android&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/jt_MLRKXMwmVBOVDUydggvyBIHQNNb3uuLRdxJrt0W2Un7qPGULagR89iJrFFvHRTDbL",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$11.99 - $59.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "0.6.0",
+          "lastUpdated": "2024-01-18",
+          "notes": "Improved onboarding flow.",
+          "rating": 3,
+          "downloads": "N/A",
+          "size": "22402048",
+          "developer": "OVPN Inc",
+          "url": "https://apps.apple.com/us/app/ovpn-unlimited-vpn-wifi-proxy/id1520543719?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/29/8b/67/298b6799-bb51-e40a-12d6-31ea64f368ac/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "2.15.40",
+          "lastUpdated": "2025-12-11",
+          "notes": "This is a technical update aimed to increase the app stability and fix minor bugs.",
+          "rating": 4.5306334,
+          "downloads": "10,000,000+",
+          "developer": "AdGuard Software Limited",
+          "url": "https://play.google.com/store/apps/details?id=com.adguard.vpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/wWlSsCm9F5C-C8NIMEr0puZLgG-G45pDlXEPofRdAAsZO_fekJERSO9lZEwyRwVAqCz8xXnlWmRXT72k7EKa",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$5.99 - $53.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.9.4",
+          "lastUpdated": "2026-01-21",
+          "notes": "This is a technical update aimed to increase the app stability and fix minor bugs.",
+          "rating": 4.57352,
+          "downloads": "N/A",
+          "size": "120717312",
+          "developer": "Adguard Software Limited",
+          "url": "https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3b/9d/5e3b9d20-62e4-0522-aa2f-50cbd7451f9c/VPN-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "perfectprivacy",
+      "name": "Perfect Privacy",
+      "platforms": {}
+    },
+    {
+      "id": "hma",
+      "name": "HMA VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "6.1.6752",
+          "lastUpdated": "2025-12-12",
+          "notes": "* Bug fixes and improvements.",
+          "rating": 4.3356104,
+          "downloads": "5,000,000+",
+          "developer": "Privax",
+          "url": "https://play.google.com/store/apps/details?id=com.hidemyass.hidemyassprovpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/rFhtF_v2VRQkjpSi7Q8SzHsocNNnrk3IME2T_ERIr6GtyTUL8lXIWTTd3TKqAlfDZlA",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$1.66 - $83.88 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "6.0.0",
+          "lastUpdated": "2025-11-11",
+          "notes": "We're always improving the experience so we’ve fixed some bugs and improved the performance of the app.\nLet us know what you think!",
+          "rating": 4.59072,
+          "downloads": "N/A",
+          "size": "102492160",
+          "developer": "Privax",
+          "url": "https://apps.apple.com/us/app/hma-hotspot-vpn-proxy/id675102189?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/01/f5/f101f579-c949-fecb-55e6-a61d47595533/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "12+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "vpnac",
+      "name": "VPN.ac",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "1.1.50",
+          "lastUpdated": "2025-10-31",
+          "notes": "- Updated to match Android API version requirement",
+          "rating": 3.84,
+          "downloads": "100,000+",
+          "developer": "Cryptolayer SRL",
+          "url": "https://play.google.com/store/apps/details?id=ac.vpn.androidapp&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/i7vywMe2nnmeLN28z-rwYI8qa0hdoQAaAn_Y-AewcENtkiHnEqIV638rcmH_FlGz_LA9",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "Everyone",
+          "genre": "Communication"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "3.2.3",
+          "lastUpdated": "2023-11-13",
+          "notes": "- bug fixes",
+          "rating": 3.25532,
+          "downloads": "N/A",
+          "size": "51335168",
+          "developer": "Cryptolayer SRL",
+          "url": "https://apps.apple.com/us/app/vpn-ac-premium-vpn/id1162124975?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/b7/24/52b724a4-f307-27b9-621d-b69357f25d3e/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "privado",
+      "name": "PrivadoVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "VARY",
+          "lastUpdated": "2026-01-07",
+          "notes": "Features:<br>* Streamlined home screen and added new long-click menu.<br>* Enhanced visual feedback during reconnection.<br>Fixes:<br>* Made auto-connect functionality more reliable.<br>* Removed vibration on tablets in privacy mode.<br>* Various bug fixes.",
+          "rating": 3.3486843,
+          "downloads": "1,000,000+",
+          "developer": "Privado Networks, LLC",
+          "url": "https://play.google.com/store/apps/details?id=io.privado.android&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/zUFTsPHIH1bakhaTNioeKc2bXkp_5dZlULq7NLb10xMefXFB1_qko70yNyW_pR2cIA",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$10.99 - $59.88 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "3.11.2",
+          "lastUpdated": "2025-11-19",
+          "notes": "Features:\n* More options are now available when user long-presses server list.\nFixes:\n* Various bug fixes.",
+          "rating": 4.07993,
+          "downloads": "N/A",
+          "size": "53597184",
+          "developer": "Privado Networks LLC",
+          "url": "https://apps.apple.com/us/app/privadovpn-fast-vpn-and-proxy/id1498920805?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/a6/85/eca68550-f788-b4cb-2246-054ba6f4f8a1/AppIcon.iOS-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "hotspotshield",
+      "name": "Hotspot Shield",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "11.12.0",
+          "lastUpdated": "2026-01-21",
+          "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
+          "rating": 4.511279,
+          "downloads": "100,000,000+",
+          "developer": "Anchorfree LLC",
+          "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/lPlW2hReTlQ5JNFZC5hHkKDQqCyAaqpwYgH9SjNsd3zD5RCVBXL5vdNI_NUo2H4XgA",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$0.99 - $99.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "8.40.1",
+          "lastUpdated": "2026-01-30",
+          "notes": "Protect your privacy with the latest Hotspot Shield VPN update! We’ve improved stability and security to keep your data safe and your connection strong. Stream, browse, and shop online with confidence — or upgrade to Premium for advanced protection and speed.",
+          "rating": 4.57397,
+          "downloads": "N/A",
+          "size": "161466368",
+          "developer": "AnchorFree Inc.",
+          "url": "https://apps.apple.com/us/app/vpn-hotspot-shield-wifi-proxy/id443369807?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/aa/72/d2aa7214-8a3e-f810-5e42-a1d4f5921d7c/AppIcon-v2-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Productivity"
+        }
+      }
+    },
+    {
+      "id": "clearvpn",
+      "name": "ClearVPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "3.3.7",
+          "lastUpdated": "2025-11-12",
+          "notes": "Nothing’s perfect. That’s why apps have developers to fix them. We’ve tweaked some tiny things in ClearVPN and the app works better now!",
+          "rating": 4.037594,
+          "downloads": "1,000,000+",
+          "developer": "MacPaw Inc.",
+          "url": "https://play.google.com/store/apps/details?id=com.macpaw.clearvpn.android&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/ujtOiShc1zbL2KtNZt4eZcXQ9LcD9IyaOqxqUApcM29sOfM6LJB7-L6gJrR_Q-MkJg",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$4.99 - $94.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "3.2.9",
+          "lastUpdated": "2025-12-03",
+          "notes": "Fixed some minor issues and known crashes to improve your overall experience.",
+          "rating": 4.62289,
+          "downloads": "N/A",
+          "size": "140383232",
+          "developer": "MacPaw Way Ltd",
+          "url": "https://apps.apple.com/us/app/clearvpn-secure-and-fast-vpn/id1532377665?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/e4/f5/d3e4f506-250b-901c-fe18-0e4d6059f9db/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "12+",
+          "genre": "Utilities"
+        }
+      }
+    },
+    {
+      "id": "mozilla",
+      "name": "Mozilla VPN",
+      "platforms": {
+        "android": {
+          "platform": "android",
+          "version": "2.32.0",
+          "lastUpdated": "2026-02-04",
+          "notes": "This update includes minor bug fixes, UI adjustments and other performance improvements.",
+          "rating": 3.9358974,
+          "downloads": "500,000+",
+          "developer": "Mozilla",
+          "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox.vpn&hl=en&gl=us",
+          "icon": "https://play-lh.googleusercontent.com/ajGs6NrIC3DsR3lwYU5RIq1ITc6su-PLyezuOe0yvIxqo8-OATtkyIXvBdUFGXssmGrK",
+          "price": 0,
+          "free": true,
+          "offersIAP": true,
+          "iapRange": "$9.99 - $59.99 per item",
+          "contentRating": "Everyone",
+          "genre": "Tools"
+        },
+        "ios": {
+          "platform": "ios",
+          "version": "2.33.0",
+          "lastUpdated": "2026-02-06",
+          "notes": "This update includes minor bug fixes, UI adjustments and other performance improvements, including:\n- Subscription management has fully transitioned to the Mozilla accounts website.\n- Regular key rotation, improving security in the event of extreme, unexpected situations.\n- If you are using that beautiful new iPhone Air, Mozilla VPN should now look even better on it.\n- Improvements on when notification permissions are requested when the app launches for the first time.\n- The navigation bar’s message icon sometimes retained the ’unread’ indicator even after all messages were read. That should not happen anymore.\n- Did you notice that the close button on popups was a little too low? It no longer is.\n- Some exciting under-the-hood work to support a future feature.\n- You can use Mozilla VPN in dozens of languages, and we’ve included the latest translations in this release.",
+          "rating": 3.45053,
+          "downloads": "N/A",
+          "size": "78927872",
+          "developer": "Mozilla",
+          "url": "https://apps.apple.com/us/app/mozilla-vpn-secure-private/id1489407738?uo=4",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/86/90/f0869021-4455-ad04-a7d9-bfba9701b9c4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+          "price": 0,
+          "free": true,
+          "offersIAP": false,
+          "iapRange": null,
+          "contentRating": "4+",
+          "genre": "Utilities"
         }
       }
     }
   ],
   "feed": [
     {
-      "id": "proton_ios",
+      "id": "mozilla_ios_2.33.0",
+      "appId": "mozilla",
+      "appName": "Mozilla VPN",
+      "platform": "ios",
+      "version": "2.33.0",
+      "lastUpdated": "2026-02-06",
+      "notes": "This update includes minor bug fixes, UI adjustments and other performance improvements, including:\n- Subscription management has fully transitioned to the Mozilla accounts website.\n- Regular key rotation, improving security in the event of extreme, unexpected situations.\n- If you are using that beautiful new iPhone Air, Mozilla VPN should now look even better on it.\n- Improvements on when notification permissions are requested when the app launches for the first time.\n- The navigation bar’s message icon sometimes retained the ’unread’ indicator even after all messages were read. That should not happen anymore.\n- Did you notice that the close button on popups was a little too low? It no longer is.\n- Some exciting under-the-hood work to support a future feature.\n- You can use Mozilla VPN in dozens of languages, and we’ve included the latest translations in this release.",
+      "rating": 3.45053,
+      "downloads": "N/A",
+      "size": "78927872",
+      "developer": "Mozilla",
+      "url": "https://apps.apple.com/us/app/mozilla-vpn-secure-private/id1489407738?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/86/90/f0869021-4455-ad04-a7d9-bfba9701b9c4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+    },
+    {
+      "id": "proton_ios_7.1.1",
       "appId": "proton",
       "appName": "Proton VPN",
       "platform": "ios",
@@ -284,7 +1127,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/3c/87/183c875f-e7a8-82fb-966f-f5ddbba6336b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": "tunnelbear_ios",
+      "id": "tunnelbear_ios_4.10.1",
       "appId": "tunnelbear",
       "appName": "TunnelBear VPN",
       "platform": "ios",
@@ -299,7 +1142,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/26/a8/5926a8d6-7ea7-c8ba-5949-da7806db7b0f/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
     },
     {
-      "id": "windscribe_android",
+      "id": "windscribe_android_3.97.1977",
       "appId": "windscribe",
       "appName": "Windscribe VPN",
       "platform": "android",
@@ -313,21 +1156,36 @@
       "icon": "https://play-lh.googleusercontent.com/-LvpTcro1zqQ6YgN_Lx0M51C7wbspNvn4AQza93XxS-d5aV6K8Bq_hdGej3udhAekcs"
     },
     {
-      "id": "nord_android",
+      "id": "veepn_ios_3.3.23",
+      "appId": "veepn",
+      "appName": "VeePN",
+      "platform": "ios",
+      "version": "3.3.23",
+      "lastUpdated": "2026-02-05",
+      "notes": "• This update includes several bug fixes to enhance the overall performance of the app\n• Do you have any thoughts or suggestions? Please reach out to us at support@veepn.com\n\nWe appreciate your continued support. Thanks for choosing our app!",
+      "rating": 4.48442,
+      "downloads": "N/A",
+      "size": "107736064",
+      "developer": "Veepn Corp",
+      "url": "https://apps.apple.com/us/app/vpn-proxy-master-veepn/id1246703610?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/6f/bd/ac6fbd29-aa93-a481-5f74-e013fe7e6d2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "nord_android_VARY",
       "appId": "nord",
       "appName": "NordVPN",
       "platform": "android",
       "version": "VARY",
       "lastUpdated": "2026-02-04",
       "notes": "• Sprinting to your phone just to see it’s a scam call — that’s unnecessary cardio. With call blocking, you can now automatically block scam and telemarketing calls. Simply head to Call Protection &gt; Call blocking, select the categories you’d like to avoid, and enjoy your peace.<br>Available with certain subscription plans in the US, Canada, Japan, and the UK.",
-      "rating": 4.5759563,
+      "rating": 4.5758786,
       "downloads": "100,000,000+",
       "developer": "Nord Security",
       "url": "https://play.google.com/store/apps/details?id=com.nordvpn.android&hl=en&gl=us",
       "icon": "https://play-lh.googleusercontent.com/zJ3ysMhOnrgMgkxWibuHu_MlzfnpM96mriUfm8f898BMnDFmXa9peQvIaClA3KuBeZk"
     },
     {
-      "id": "tunnelbear_android",
+      "id": "tunnelbear_android_4.9.1",
       "appId": "tunnelbear",
       "appName": "TunnelBear VPN",
       "platform": "android",
@@ -341,7 +1199,36 @@
       "icon": "https://play-lh.googleusercontent.com/3RoSMZTo2xVwcOc23b0EtZXg5KJqQmSkOyf_ab50NoGCE2f97SUNLvSn1SBH2O2bk1tM4MQ455OX4WofVWSp6w"
     },
     {
-      "id": "express_ios",
+      "id": "purevpn_ios_9.64.1",
+      "appId": "purevpn",
+      "appName": "PureVPN",
+      "platform": "ios",
+      "version": "9.64.1",
+      "lastUpdated": "2026-02-04",
+      "notes": "Public Wi-Fi? We’ve got your back.\nAuto Connect now auto-activates VPN on risky networks. You stay safe without doing a thing.",
+      "rating": 4.36474,
+      "downloads": "N/A",
+      "size": "469125120",
+      "developer": "PureVPN",
+      "url": "https://apps.apple.com/us/app/purevpn-fast-and-secure-vpn/id594506418?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/2b/2a/fa2b2ad8-dacb-fd1c-8d29-f15af3019d67/AppIcon-0-1x_U007emarketing-0-8-0-GLES2_U002c0-85-220-0.png/512x512bb.jpg"
+    },
+    {
+      "id": "mozilla_android_2.32.0",
+      "appId": "mozilla",
+      "appName": "Mozilla VPN",
+      "platform": "android",
+      "version": "2.32.0",
+      "lastUpdated": "2026-02-04",
+      "notes": "This update includes minor bug fixes, UI adjustments and other performance improvements.",
+      "rating": 3.9358974,
+      "downloads": "500,000+",
+      "developer": "Mozilla",
+      "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox.vpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/ajGs6NrIC3DsR3lwYU5RIq1ITc6su-PLyezuOe0yvIxqo8-OATtkyIXvBdUFGXssmGrK"
+    },
+    {
+      "id": "express_ios_12.42.2",
       "appId": "express",
       "appName": "ExpressVPN",
       "platform": "ios",
@@ -356,37 +1243,37 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/f2/b5/dcf2b598-1532-f1dc-d039-326077b5f038/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
     },
     {
-      "id": "surfshark_android",
+      "id": "surfshark_android_3.24.0",
       "appId": "surfshark",
       "appName": "Surfshark VPN",
       "platform": "android",
       "version": "3.24.0",
       "lastUpdated": "2026-02-03",
       "notes": "We&#39;ve made a few improvements to enhance the reliability of our ad blocker, Clean Web;<br>Enjoy a smoother VPN with our latest performance and stability fixes.",
-      "rating": 4.5917478,
+      "rating": 4.592103,
       "downloads": "10,000,000+",
       "developer": "Surfshark B.V.",
       "url": "https://play.google.com/store/apps/details?id=com.surfshark.vpnclient.android&hl=en&gl=us",
       "icon": "https://play-lh.googleusercontent.com/wClkU3TA-rkOFC5dyoYkUjQNSzvxe9URgHn1Q09Kk1tx8piVe4mraaJTmeSKa8ADGRY"
     },
     {
-      "id": "proton_android",
+      "id": "proton_android_5.15.9.4",
       "appId": "proton",
       "appName": "Proton VPN",
       "platform": "android",
       "version": "5.15.9.4",
       "lastUpdated": "2026-02-03",
       "notes": "Minor UI and stability improvements",
-      "rating": 4.6962347,
+      "rating": 4.6964726,
       "downloads": "50,000,000+",
       "developer": "Proton AG",
       "url": "https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en&gl=us",
       "icon": "https://play-lh.googleusercontent.com/hferjPeJ9_aWi_r5t8L0qOAwU4ZWAyduYmRkYodJOylRKwOxPI_117GzVSkAnhaNOw"
     },
     {
-      "id": "pia_android",
+      "id": "pia_android_4.0.23",
       "appId": "pia",
-      "appName": "Private Internet Access VPN",
+      "appName": "Private Internet Access",
       "platform": "android",
       "version": "4.0.23",
       "lastUpdated": "2026-02-02",
@@ -398,7 +1285,7 @@
       "icon": "https://play-lh.googleusercontent.com/pjak9VEb8yALzrZnL6fAA8DlvR3GDwmyHwXK8kcl3PnUN9Aonr3CMQSnZZ0HzSONDWY"
     },
     {
-      "id": "express_android",
+      "id": "express_android_12.50.0",
       "appId": "express",
       "appName": "ExpressVPN",
       "platform": "android",
@@ -412,7 +1299,22 @@
       "icon": "https://play-lh.googleusercontent.com/CnGsOmhIKfo1_IAnCUxAYXBaxkJ11rQXqPAGU_t29S6nVsrzTx-3OjMWFf2fk_b7u3g"
     },
     {
-      "id": "cyberghost_android",
+      "id": "hotspotshield_ios_8.40.1",
+      "appId": "hotspotshield",
+      "appName": "Hotspot Shield",
+      "platform": "ios",
+      "version": "8.40.1",
+      "lastUpdated": "2026-01-30",
+      "notes": "Protect your privacy with the latest Hotspot Shield VPN update! We’ve improved stability and security to keep your data safe and your connection strong. Stream, browse, and shop online with confidence — or upgrade to Premium for advanced protection and speed.",
+      "rating": 4.57397,
+      "downloads": "N/A",
+      "size": "161466368",
+      "developer": "AnchorFree Inc.",
+      "url": "https://apps.apple.com/us/app/vpn-hotspot-shield-wifi-proxy/id443369807?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/aa/72/d2aa7214-8a3e-f810-5e42-a1d4f5921d7c/AppIcon-v2-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "cyberghost_android_8.34.0.3730",
       "appId": "cyberghost",
       "appName": "CyberGhost VPN",
       "platform": "android",
@@ -426,7 +1328,7 @@
       "icon": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI"
     },
     {
-      "id": "surfshark_ios",
+      "id": "surfshark_ios_3.31.0",
       "appId": "surfshark",
       "appName": "Surfshark VPN",
       "platform": "ios",
@@ -441,7 +1343,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/ca/ea/dfcaeabc-53ea-8d29-144a-a5e189dcb220/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
-      "id": "nord_ios",
+      "id": "nord_ios_8.61.0",
       "appId": "nord",
       "appName": "NordVPN",
       "platform": "ios",
@@ -456,9 +1358,9 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
-      "id": "pia_ios",
+      "id": "pia_ios_3.26.4",
       "appId": "pia",
-      "appName": "Private Internet Access VPN",
+      "appName": "Private Internet Access",
       "platform": "ios",
       "version": "3.26.4",
       "lastUpdated": "2026-01-21",
@@ -471,7 +1373,93 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/15/b6/6515b664-41a9-e28b-e840-befdb65406b1/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg"
     },
     {
-      "id": "windscribe_ios",
+      "id": "purevpn_android_8.94.25",
+      "appId": "purevpn",
+      "appName": "PureVPN",
+      "platform": "android",
+      "version": "8.94.25",
+      "lastUpdated": "2026-01-21",
+      "notes": "We have rearranged your bottom nav items for a more intuitive experience, so you can get to what matters most even faster.",
+      "rating": 3.3181148,
+      "downloads": "5,000,000+",
+      "developer": "PureVPN",
+      "url": "https://play.google.com/store/apps/details?id=com.gaditek.purevpnics&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/3oesJGWl5C0jKqjz1YV3MHFCaOnTreL-JxoVsm4zpncMyy_oLVdWDw5WpPs909VPY_s"
+    },
+    {
+      "id": "adguard_ios_2.9.4",
+      "appId": "adguard",
+      "appName": "AdGuard VPN",
+      "platform": "ios",
+      "version": "2.9.4",
+      "lastUpdated": "2026-01-21",
+      "notes": "This is a technical update aimed to increase the app stability and fix minor bugs.",
+      "rating": 4.57352,
+      "downloads": "N/A",
+      "size": "120717312",
+      "developer": "Adguard Software Limited",
+      "url": "https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3b/9d/5e3b9d20-62e4-0522-aa2f-50cbd7451f9c/VPN-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hotspotshield_android_11.12.0",
+      "appId": "hotspotshield",
+      "appName": "Hotspot Shield",
+      "platform": "android",
+      "version": "11.12.0",
+      "lastUpdated": "2026-01-21",
+      "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
+      "rating": 4.511279,
+      "downloads": "100,000,000+",
+      "developer": "Anchorfree LLC",
+      "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/lPlW2hReTlQ5JNFZC5hHkKDQqCyAaqpwYgH9SjNsd3zD5RCVBXL5vdNI_NUo2H4XgA"
+    },
+    {
+      "id": "ipvanish_android_VARY",
+      "appId": "ipvanish",
+      "appName": "IPVanish",
+      "platform": "android",
+      "version": "VARY",
+      "lastUpdated": "2026-01-19",
+      "notes": "+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.<br><br>With every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we&#39;ll help find a fix.",
+      "rating": 4.4100266,
+      "downloads": "10,000,000+",
+      "developer": "IPVanish VPN",
+      "url": "https://play.google.com/store/apps/details?id=com.ixolit.ipvanish&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/d1eWm7Db58NeIvC74ngS7W6TgKDQX1_BNN6HY4ZHqu_Ptq4kH6NuuU3T5R_tL8XOg0Fa"
+    },
+    {
+      "id": "cyberghost_ios_8.4.18",
+      "appId": "cyberghost",
+      "appName": "CyberGhost VPN",
+      "platform": "ios",
+      "version": "8.4.18",
+      "lastUpdated": "2026-01-13",
+      "notes": "We made some small tweaks and fixes to keep your app experience top-notch.",
+      "rating": 4.21142,
+      "downloads": "N/A",
+      "size": "44299264",
+      "developer": "CyberGhost SRL",
+      "url": "https://apps.apple.com/us/app/cyberghost-safe-private-vpn/id583009522?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/56/32/335632d1-4464-6863-1119-561cd497f82d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "privado_android_VARY",
+      "appId": "privado",
+      "appName": "PrivadoVPN",
+      "platform": "android",
+      "version": "VARY",
+      "lastUpdated": "2026-01-07",
+      "notes": "Features:<br>* Streamlined home screen and added new long-click menu.<br>* Enhanced visual feedback during reconnection.<br>Fixes:<br>* Made auto-connect functionality more reliable.<br>* Removed vibration on tablets in privacy mode.<br>* Various bug fixes.",
+      "rating": 3.3486843,
+      "downloads": "1,000,000+",
+      "developer": "Privado Networks, LLC",
+      "url": "https://play.google.com/store/apps/details?id=io.privado.android&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/zUFTsPHIH1bakhaTNioeKc2bXkp_5dZlULq7NLb10xMefXFB1_qko70yNyW_pR2cIA"
+    },
+    {
+      "id": "windscribe_ios_3.9.11",
       "appId": "windscribe",
       "appName": "Windscribe VPN",
       "platform": "ios",
@@ -486,21 +1474,78 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/7d/e1/187de1b3-c141-002f-cb67-c81fddc75334/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg"
     },
     {
-      "id": "urban_android",
-      "appId": "urban",
-      "appName": "Urban VPN",
+      "id": "veepn_android_3.8.5",
+      "appId": "veepn",
+      "appName": "VeePN",
       "platform": "android",
-      "version": "1.0.97",
-      "lastUpdated": "2025-12-12",
-      "notes": "🖥️ Enhanced Protection feature improvements.<br>🔧 Bug fixes - Improved server availability and speed.",
-      "rating": 4.3743963,
-      "downloads": "10,000,000+",
-      "developer": "Urban VPN",
-      "url": "https://play.google.com/store/apps/details?id=com.urbanvpn.android&hl=en&gl=us",
-      "icon": "https://play-lh.googleusercontent.com/uGBUhlrpfw7FvgUtpgik4FePOhoDrb8N41v3VCt1qWK2mYOZVq32IsxShLH5LRDbeg"
+      "version": "3.8.5",
+      "lastUpdated": "2025-12-23",
+      "notes": "The new update has come. What&#39;s new:<br>- UI improvements  <br>- Small bug fixes<br>- General improvements of the service performance<br><br>Enjoy your VeePN the same but somewhat better. We are ready to assist you with any questions you have. Don&#39;t hesitate to email us at support@veepn.com",
+      "rating": 4.2431192,
+      "downloads": "1,000,000+",
+      "developer": "VeePN Corp.",
+      "url": "https://play.google.com/store/apps/details?id=com.vpnproxy.connect&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/2NF3DvGzDrXW27uKikP5qtDe5oz_H4whlaNKfnBCioG1d5ZSjAH-4ti_MuLvM62KcIA"
     },
     {
-      "id": "mullvad_android",
+      "id": "hma_android_6.1.6752",
+      "appId": "hma",
+      "appName": "HMA VPN",
+      "platform": "android",
+      "version": "6.1.6752",
+      "lastUpdated": "2025-12-12",
+      "notes": "* Bug fixes and improvements.",
+      "rating": 4.3356104,
+      "downloads": "5,000,000+",
+      "developer": "Privax",
+      "url": "https://play.google.com/store/apps/details?id=com.hidemyass.hidemyassprovpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/rFhtF_v2VRQkjpSi7Q8SzHsocNNnrk3IME2T_ERIr6GtyTUL8lXIWTTd3TKqAlfDZlA"
+    },
+    {
+      "id": "ipvanish_ios_4.28.1",
+      "appId": "ipvanish",
+      "appName": "IPVanish",
+      "platform": "ios",
+      "version": "4.28.1",
+      "lastUpdated": "2025-12-11",
+      "notes": "+ We’ve added OpenVPN protocol support, currently in beta.\n+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.\n+ Virtual servers are now indicated with an icon in the Locations list.\n\nWith every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we'll help find a fix.",
+      "rating": 4.55206,
+      "downloads": "N/A",
+      "size": "83148800",
+      "developer": "IPVanish, Inc.",
+      "url": "https://apps.apple.com/us/app/ipvanish-ip-location-changer/id763638165?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/db/10/d8db1052-148c-8141-5d3b-5a586088b23f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "adguard_android_2.15.40",
+      "appId": "adguard",
+      "appName": "AdGuard VPN",
+      "platform": "android",
+      "version": "2.15.40",
+      "lastUpdated": "2025-12-11",
+      "notes": "This is a technical update aimed to increase the app stability and fix minor bugs.",
+      "rating": 4.5306334,
+      "downloads": "10,000,000+",
+      "developer": "AdGuard Software Limited",
+      "url": "https://play.google.com/store/apps/details?id=com.adguard.vpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/wWlSsCm9F5C-C8NIMEr0puZLgG-G45pDlXEPofRdAAsZO_fekJERSO9lZEwyRwVAqCz8xXnlWmRXT72k7EKa"
+    },
+    {
+      "id": "bitdefender_android_2.2.7.160",
+      "appId": "bitdefender",
+      "appName": "Bitdefender VPN",
+      "platform": "android",
+      "version": "2.2.7.160",
+      "lastUpdated": "2025-12-09",
+      "notes": "Introducing the new VPN! <br>With your feedback guiding our strategy we worked hard to transform the VPN into an excellent privacy solution. We&#39;re excited to announce a major update that includes important improvements and cool new features.<br><br>The modern and visually appealing new look allows faster navigation and easy customization.<br><br>Double-hop adds an extra layer of obfuscation for those who take no chances in securing their privacy.",
+      "rating": 4.755024,
+      "downloads": "1,000,000+",
+      "developer": "Bitdefender",
+      "url": "https://play.google.com/store/apps/details?id=com.bitdefender.vpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/h9fEBB4F387HMGsR225BIHy5SQMnxW_KA0qq5T28NHucS1xMbBKJv1sftFI-ppC1OpI"
+    },
+    {
+      "id": "mullvad_android_2025.11",
       "appId": "mullvad",
       "appName": "Mullvad VPN",
       "platform": "android",
@@ -514,7 +1559,52 @@
       "icon": "https://play-lh.googleusercontent.com/X3V8MJMnYasSOTLeFAN-EX8vKrckT2kxnPSeKRyGEU77pa-PVOjvKSvMdcOhnHX9aEg"
     },
     {
-      "id": "mullvad_ios",
+      "id": "ivpn_ios_2.13.0",
+      "appId": "ivpn",
+      "appName": "IVPN",
+      "platform": "ios",
+      "version": "2.13.0",
+      "lastUpdated": "2025-12-08",
+      "notes": "[IMPROVED] Enhanced connectivity and stability for V2Ray obfuscation  \n[IMPROVED] Added support for multiple custom DNS servers",
+      "rating": 4.05668,
+      "downloads": "N/A",
+      "size": "63350784",
+      "developer": "IVPN Limited",
+      "url": "https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/c6/db/84c6db3f-e30d-6d00-bcda-2a2538b205b1/AppIcon-0-0-1x_U007emarketing-0-8-0-512MB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "clearvpn_ios_3.2.9",
+      "appId": "clearvpn",
+      "appName": "ClearVPN",
+      "platform": "ios",
+      "version": "3.2.9",
+      "lastUpdated": "2025-12-03",
+      "notes": "Fixed some minor issues and known crashes to improve your overall experience.",
+      "rating": 4.62289,
+      "downloads": "N/A",
+      "size": "140383232",
+      "developer": "MacPaw Way Ltd",
+      "url": "https://apps.apple.com/us/app/clearvpn-secure-and-fast-vpn/id1532377665?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/e4/f5/d3e4f506-250b-901c-fe18-0e4d6059f9db/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "bitdefender_ios_2.3.20",
+      "appId": "bitdefender",
+      "appName": "Bitdefender VPN",
+      "platform": "ios",
+      "version": "2.3.20",
+      "lastUpdated": "2025-12-02",
+      "notes": "Introducing the new Bitdefender VPN\n\nThanks to your feedback, we’ve transformed Bitdefender VPN into an even more powerful privacy protection solution. This major update includes:\n\n- A modern and streamlined design for faster navigation and easier customisation  \n- Support for the WireGuard protocol to boost speed without compromising security  \n- New Double-Hop feature for an extra layer of privacy protection  \n- Improved performance and user experience across all platforms",
+      "rating": 4.80668,
+      "downloads": "N/A",
+      "size": "288933888",
+      "developer": "Bitdefender SRL",
+      "url": "https://apps.apple.com/us/app/bitdefender-vpn-fast-secure/id1499633482?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/a7/30/fda73056-e701-0619-ae22-cfd4bcdbde92/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+    },
+    {
+      "id": "mullvad_ios_2025.10",
       "appId": "mullvad",
       "appName": "Mullvad VPN",
       "platform": "ios",
@@ -527,31 +1617,688 @@
       "developer": "Mullvad VPN AB",
       "url": "https://apps.apple.com/us/app/mullvad-vpn/id1488466513?uo=4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/2e/5a/e82e5a8a-abfc-83ac-4420-2d77512d3368/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "vyprvpn_ios_6.0.4",
+      "appId": "vyprvpn",
+      "appName": "VyprVPN",
+      "platform": "ios",
+      "version": "6.0.4",
+      "lastUpdated": "2025-11-22",
+      "notes": "Improve in-app registration workflow to alleviate user confusion and subscription errors.",
+      "rating": 4.69705,
+      "downloads": "N/A",
+      "size": "44956672",
+      "developer": "Golden Frog",
+      "url": "https://apps.apple.com/us/app/vyprvpn-vpn-secure-private/id577635689?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/9c/0a/219c0a4d-489d-ed3d-7d70-3028b37258be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "astrill_android_3.14.55",
+      "appId": "astrill",
+      "appName": "Astrill VPN",
+      "platform": "android",
+      "version": "3.14.55",
+      "lastUpdated": "2025-11-22",
+      "notes": "New: OpenVPN Smart mode<br>New: Auto protocol<br>New: searchable server list<br><br>Fix: Minor UI changes<br>Fix: Improved OpenWeb stability<br>Fix: StealthVPN crash fixes",
+      "rating": 3.0873015,
+      "downloads": "1,000,000+",
+      "developer": "Veloxee Corp.",
+      "url": "https://play.google.com/store/apps/details?id=com.astrill.astrillvpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/QdPa_xP5wAcxmBdWl69oY1OZ4Rquf4Xaxe4tQJgRC3trPEoTiPRKvhLXyAKrBeFXyjs"
+    },
+    {
+      "id": "vyprvpn_android_VARY",
+      "appId": "vyprvpn",
+      "appName": "VyprVPN",
+      "platform": "android",
+      "version": "VARY",
+      "lastUpdated": "2025-11-20",
+      "notes": "Improve in-app registration workflow to alleviate user confusion and subscription errors.",
+      "rating": 4.5500693,
+      "downloads": "5,000,000+",
+      "developer": "Golden Frog, GmbH",
+      "url": "https://play.google.com/store/apps/details?id=com.goldenfrog.vyprvpn.app&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/pJ5Lbec8haeZJN0dPAtPe_JI2cKAMXMiwedVk5_zkaUiqYy-nyjMbOyf_vciO2elrqA"
+    },
+    {
+      "id": "privado_ios_3.11.2",
+      "appId": "privado",
+      "appName": "PrivadoVPN",
+      "platform": "ios",
+      "version": "3.11.2",
+      "lastUpdated": "2025-11-19",
+      "notes": "Features:\n* More options are now available when user long-presses server list.\nFixes:\n* Various bug fixes.",
+      "rating": 4.07993,
+      "downloads": "N/A",
+      "size": "53597184",
+      "developer": "Privado Networks LLC",
+      "url": "https://apps.apple.com/us/app/privadovpn-fast-vpn-and-proxy/id1498920805?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/a6/85/eca68550-f788-b4cb-2246-054ba6f4f8a1/AppIcon.iOS-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "clearvpn_android_3.3.7",
+      "appId": "clearvpn",
+      "appName": "ClearVPN",
+      "platform": "android",
+      "version": "3.3.7",
+      "lastUpdated": "2025-11-12",
+      "notes": "Nothing’s perfect. That’s why apps have developers to fix them. We’ve tweaked some tiny things in ClearVPN and the app works better now!",
+      "rating": 4.037594,
+      "downloads": "1,000,000+",
+      "developer": "MacPaw Inc.",
+      "url": "https://play.google.com/store/apps/details?id=com.macpaw.clearvpn.android&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/ujtOiShc1zbL2KtNZt4eZcXQ9LcD9IyaOqxqUApcM29sOfM6LJB7-L6gJrR_Q-MkJg"
+    },
+    {
+      "id": "hma_ios_6.0.0",
+      "appId": "hma",
+      "appName": "HMA VPN",
+      "platform": "ios",
+      "version": "6.0.0",
+      "lastUpdated": "2025-11-11",
+      "notes": "We're always improving the experience so we’ve fixed some bugs and improved the performance of the app.\nLet us know what you think!",
+      "rating": 4.59072,
+      "downloads": "N/A",
+      "size": "102492160",
+      "developer": "Privax",
+      "url": "https://apps.apple.com/us/app/hma-hotspot-vpn-proxy/id675102189?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/01/f5/f101f579-c949-fecb-55e6-a61d47595533/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "torguard_android_VARY",
+      "appId": "torguard",
+      "appName": "TorGuard VPN",
+      "platform": "android",
+      "version": "VARY",
+      "lastUpdated": "2025-11-04",
+      "notes": " - General performance improvements and stability enhancements.<br> - Updated core libraries and dependencies for improved compatibility with the latest Android versions.",
+      "rating": 4.419355,
+      "downloads": "1,000,000+",
+      "developer": "TorGuard",
+      "url": "https://play.google.com/store/apps/details?id=net.torguard.openvpn.client&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/tZax1_TnjDet6hGNc95_q1Tb3tyNi-7v8n2PXqg2lVp-BHd3s94HY79NPgIhGrQ44w"
+    },
+    {
+      "id": "vpnac_android_1.1.50",
+      "appId": "vpnac",
+      "appName": "VPN.ac",
+      "platform": "android",
+      "version": "1.1.50",
+      "lastUpdated": "2025-10-31",
+      "notes": "- Updated to match Android API version requirement",
+      "rating": 3.84,
+      "downloads": "100,000+",
+      "developer": "Cryptolayer SRL",
+      "url": "https://play.google.com/store/apps/details?id=ac.vpn.androidapp&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/i7vywMe2nnmeLN28z-rwYI8qa0hdoQAaAn_Y-AewcENtkiHnEqIV638rcmH_FlGz_LA9"
+    },
+    {
+      "id": "airvpn_android_3.3.0",
+      "appId": "airvpn",
+      "appName": "AirVPN",
+      "platform": "android",
+      "version": "3.3.0",
+      "lastUpdated": "2025-10-22",
+      "notes": "* Full compatibility from Android 5.1 to Android 16<br>* New and improved NetworkMonitor<br>* Improvements in ergonomics for faster and more comfortable use<br>* Updated OpenSSL, OpenVPN3-AirVPN and WireGuard libraries<br>* Ability to start and connect during the device bootstrap on all supported Android TV and Android versions, with or without &quot;Always on VPN&quot;<br>* Opt in ability to auto connect when the app is launched<br>* Updated code, SDK 16 100% compliant",
+      "rating": 3.58,
+      "downloads": "100,000+",
+      "developer": "AirVPN",
+      "url": "https://play.google.com/store/apps/details?id=org.airvpn.eddie&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/8lcLShgY_JFneUYffeB9nE6T-ipYbQe7BTgSxHZSQRenun0oasIbN_jlIOYEYR4nwQ"
+    },
+    {
+      "id": "ivpn_android_2.11.2",
+      "appId": "ivpn",
+      "appName": "IVPN",
+      "platform": "android",
+      "version": "2.11.2",
+      "lastUpdated": "2025-10-13",
+      "notes": "[FIXED] “Add Time” opened ivpn.net instead of Google Play  ",
+      "rating": 3.4,
+      "downloads": "500,000+",
+      "developer": "Privatus GmbH",
+      "url": "https://play.google.com/store/apps/details?id=net.ivpn.client&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/AcTHJNwoW5CtUTm5-qrBoRBRDvtg9xGAKTemVmaTuwwCcBqN64JqgGcIcAn3GmH0e0s"
+    },
+    {
+      "id": "hideme_ios_6.0.0",
+      "appId": "hideme",
+      "appName": "Hide.me VPN",
+      "platform": "ios",
+      "version": "6.0.0",
+      "lastUpdated": "2025-09-30",
+      "notes": "Bugfixes and performance improvements.",
+      "rating": 4.52926,
+      "downloads": "N/A",
+      "size": "169339904",
+      "developer": "eVenture",
+      "url": "https://apps.apple.com/us/app/hide-me-vpn/id953040671?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/b3/cd/27b3cdf6-996b-ac8c-8fb4-07fb697e40dd/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "hideme_android_6.0.0",
+      "appId": "hideme",
+      "appName": "Hide.me VPN",
+      "platform": "android",
+      "version": "6.0.0",
+      "lastUpdated": "2025-09-29",
+      "notes": "UX enhancements ",
+      "rating": 4.3489795,
+      "downloads": "1,000,000+",
+      "developer": "eVenture Limited",
+      "url": "https://play.google.com/store/apps/details?id=hideme.android.vpn&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/35uOvFwAHQNGs_AOGH7ei1czH9ZYW9nUSOH74nPcHEVh-Rsvp6kJKFaqMbq-ZcGIXEg"
+    },
+    {
+      "id": "astrill_ios_2.3.8",
+      "appId": "astrill",
+      "appName": "Astrill VPN",
+      "platform": "ios",
+      "version": "2.3.8",
+      "lastUpdated": "2025-09-09",
+      "notes": "Bug fixes",
+      "rating": 3.67292,
+      "downloads": "N/A",
+      "size": "17925120",
+      "developer": "Veloxee Corp.",
+      "url": "https://apps.apple.com/us/app/astrill-vpn-client/id572953702?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/d3/07/9dd307f7-7975-4d5f-ab59-d7c51ed55a65/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "ovpn_android_0.18.0",
+      "appId": "ovpn",
+      "appName": "OVPN",
+      "platform": "android",
+      "version": "0.18.0",
+      "lastUpdated": "2025-08-22",
+      "notes": "Improved welcome screen, allow users to manage their subscription &amp; Firestick bug fixes.",
+      "rating": 2.7222223,
+      "downloads": "50,000+",
+      "developer": "OVPN",
+      "url": "https://play.google.com/store/apps/details?id=com.ovpn.android&hl=en&gl=us",
+      "icon": "https://play-lh.googleusercontent.com/jt_MLRKXMwmVBOVDUydggvyBIHQNNb3uuLRdxJrt0W2Un7qPGULagR89iJrFFvHRTDbL"
+    },
+    {
+      "id": "torguard_ios_2.2.11",
+      "appId": "torguard",
+      "appName": "TorGuard VPN",
+      "platform": "ios",
+      "version": "2.2.11",
+      "lastUpdated": "2024-03-27",
+      "notes": "Bug fix",
+      "rating": 4.65485,
+      "downloads": "N/A",
+      "size": "61706240",
+      "developer": "VPNetworks LLC",
+      "url": "https://apps.apple.com/us/app/private-secure-vpn-torguard/id988743799?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/38/13/36381388-3a04-d3f9-d70f-e144f3d67f17/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "id": "ovpn_ios_0.6.0",
+      "appId": "ovpn",
+      "appName": "OVPN",
+      "platform": "ios",
+      "version": "0.6.0",
+      "lastUpdated": "2024-01-18",
+      "notes": "Improved onboarding flow.",
+      "rating": 3,
+      "downloads": "N/A",
+      "size": "22402048",
+      "developer": "OVPN Inc",
+      "url": "https://apps.apple.com/us/app/ovpn-unlimited-vpn-wifi-proxy/id1520543719?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/29/8b/67/298b6799-bb51-e40a-12d6-31ea64f368ac/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": "vpnac_ios_3.2.3",
+      "appId": "vpnac",
+      "appName": "VPN.ac",
+      "platform": "ios",
+      "version": "3.2.3",
+      "lastUpdated": "2023-11-13",
+      "notes": "- bug fixes",
+      "rating": 3.25532,
+      "downloads": "N/A",
+      "size": "51335168",
+      "developer": "Cryptolayer SRL",
+      "url": "https://apps.apple.com/us/app/vpn-ac-premium-vpn/id1162124975?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/b7/24/52b724a4-f307-27b9-621d-b69357f25d3e/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/512x512bb.jpg"
     }
   ],
   "stats": {
-    "totalApps": 10,
-    "recentUpdates": 9,
-    "androidApps": 10,
-    "iosApps": 8,
-    "lastUpdated": "2026-02-06T18:36:55.103Z"
+    "totalApps": 27,
+    "recentUpdates": 13,
+    "androidApps": 27,
+    "iosApps": 26,
+    "lastUpdated": "2026-02-06T19:30:21.220Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
     "express": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/f2/b5/dcf2b598-1532-f1dc-d039-326077b5f038/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-    "cyberghost": "https://play-lh.googleusercontent.com/mY9EidYNw86nCKpAvQN9DeVOi5iUoCHOSk1pAt-d5WS1UGDkfiooI5Ic3feVbrFvdJI",
+    "cyberghost": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/56/32/335632d1-4464-6863-1119-561cd497f82d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "surfshark": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/ca/ea/dfcaeabc-53ea-8d29-144a-a5e189dcb220/iOS_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
     "proton": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/3c/87/183c875f-e7a8-82fb-966f-f5ddbba6336b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
     "tunnelbear": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/26/a8/5926a8d6-7ea7-c8ba-5949-da7806db7b0f/app-icon-regular-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "windscribe": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/7d/e1/187de1b3-c141-002f-cb67-c81fddc75334/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
-    "urban": "https://play-lh.googleusercontent.com/uGBUhlrpfw7FvgUtpgik4FePOhoDrb8N41v3VCt1qWK2mYOZVq32IsxShLH5LRDbeg",
+    "mullvad": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/2e/5a/e82e5a8a-abfc-83ac-4420-2d77512d3368/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
     "pia": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/15/b6/6515b664-41a9-e28b-e840-befdb65406b1/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
-    "mullvad": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/2e/5a/e82e5a8a-abfc-83ac-4420-2d77512d3368/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+    "purevpn": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/2b/2a/fa2b2ad8-dacb-fd1c-8d29-f15af3019d67/AppIcon-0-1x_U007emarketing-0-8-0-GLES2_U002c0-85-220-0.png/512x512bb.jpg",
+    "torguard": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/38/13/36381388-3a04-d3f9-d70f-e144f3d67f17/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+    "hideme": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/b3/cd/27b3cdf6-996b-ac8c-8fb4-07fb697e40dd/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+    "ivpn": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/c6/db/84c6db3f-e30d-6d00-bcda-2a2538b205b1/AppIcon-0-0-1x_U007emarketing-0-8-0-512MB-85-220.png/512x512bb.jpg",
+    "vyprvpn": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/9c/0a/219c0a4d-489d-ed3d-7d70-3028b37258be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "airvpn": "https://play-lh.googleusercontent.com/8lcLShgY_JFneUYffeB9nE6T-ipYbQe7BTgSxHZSQRenun0oasIbN_jlIOYEYR4nwQ",
+    "bitdefender": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/a7/30/fda73056-e701-0619-ae22-cfd4bcdbde92/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "veepn": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/6f/bd/ac6fbd29-aa93-a481-5f74-e013fe7e6d2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "ipvanish": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/db/10/d8db1052-148c-8141-5d3b-5a586088b23f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "astrill": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/d3/07/9dd307f7-7975-4d5f-ab59-d7c51ed55a65/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "ovpn": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/29/8b/67/298b6799-bb51-e40a-12d6-31ea64f368ac/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "adguard": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/3b/9d/5e3b9d20-62e4-0522-aa2f-50cbd7451f9c/VPN-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "hma": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/01/f5/f101f579-c949-fecb-55e6-a61d47595533/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "vpnac": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/b7/24/52b724a4-f307-27b9-621d-b69357f25d3e/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/512x512bb.jpg",
+    "privado": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/a6/85/eca68550-f788-b4cb-2246-054ba6f4f8a1/AppIcon.iOS-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+    "hotspotshield": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/aa/72/d2aa7214-8a3e-f810-5e42-a1d4f5921d7c/AppIcon-v2-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "clearvpn": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/e4/f5/d3e4f506-250b-901c-fe18-0e4d6059f9db/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "mozilla": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/86/90/f0869021-4455-ad04-a7d9-bfba9701b9c4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
   },
-  "totalApps": 10,
+  "iap": [
+    {
+      "id": "nord",
+      "name": "NordVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$2.99 - $199.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "express",
+      "name": "ExpressVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$9.99 - $116.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "cyberghost",
+      "name": "CyberGhost VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$2.99 - $64.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$0.99 - $119.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "proton",
+      "name": "Proton VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$9.99 - $119.88 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "tunnelbear",
+      "name": "TunnelBear VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$0.99 - $83.27 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "windscribe",
+      "name": "Windscribe VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$3.99 - $94.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$5.99 - $17.97 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "pia",
+      "name": "Private Internet Access",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$5.90 - $74.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "purevpn",
+      "name": "PureVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$0.99 - $89.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "torguard",
+      "name": "TorGuard VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": false,
+        "iapRange": null
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "hideme",
+      "name": "Hide.me VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$1.15 - $79.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "ivpn",
+      "name": "IVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$0.99 - $244.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "vyprvpn",
+      "name": "VyprVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$5.00 - $80.00 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "airvpn",
+      "name": "AirVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": false,
+        "iapRange": null
+      },
+      "ios": null
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$6.99 - $69.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "veepn",
+      "name": "VeePN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$2.99 - $199.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "ipvanish",
+      "name": "IPVanish",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$4.99 - $89.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "astrill",
+      "name": "Astrill VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": false,
+        "iapRange": null
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "ovpn",
+      "name": "OVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$11.99 - $59.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$5.99 - $53.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "perfectprivacy",
+      "name": "Perfect Privacy",
+      "android": null,
+      "ios": null
+    },
+    {
+      "id": "hma",
+      "name": "HMA VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$1.66 - $83.88 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "vpnac",
+      "name": "VPN.ac",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": false,
+        "iapRange": null
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "privado",
+      "name": "PrivadoVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$10.99 - $59.88 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "hotspotshield",
+      "name": "Hotspot Shield",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$0.99 - $99.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "clearvpn",
+      "name": "ClearVPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$4.99 - $94.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    },
+    {
+      "id": "mozilla",
+      "name": "Mozilla VPN",
+      "android": {
+        "free": true,
+        "price": 0,
+        "offersIAP": true,
+        "iapRange": "$9.99 - $59.99 per item"
+      },
+      "ios": {
+        "free": true,
+        "price": 0
+      }
+    }
+  ],
+  "rankings": {
+    "android": {
+      "proton": 6,
+      "nord": 26,
+      "surfshark": 80,
+      "hotspotshield": 168,
+      "windscribe": 178,
+      "express": 191
+    },
+    "ios": {}
+  },
+  "totalApps": 28,
   "metadata": {
-    "generatedAt": "2026-02-06T18:36:55.104Z",
-    "totalExecutionTime": 29,
-    "successfulApps": 10
+    "generatedAt": "2026-02-06T19:30:25.932Z",
+    "totalExecutionTime": 92,
+    "successfulApps": 27
   }
 }

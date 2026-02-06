@@ -3,465 +3,802 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VPN Apps Update Dashboard</title>
+    <title>VPN Apps Dashboard</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        :root {
+            --bg: #0a0a0b;
+            --bg-raised: #131316;
+            --bg-hover: #1a1a1f;
+            --bg-subtle: #0f0f12;
+            --border: #23232a;
+            --border-subtle: #1a1a1f;
+            --text-primary: #e8e8ed;
+            --text-secondary: #8b8b96;
+            --text-tertiary: #5c5c66;
+            --accent: #3b82f6;
+            --accent-subtle: rgba(59, 130, 246, 0.1);
+            --green: #22c55e;
+            --blue: #3b82f6;
+            --amber: #f59e0b;
+            --red: #ef4444;
         }
 
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
             min-height: 100vh;
-            padding: 20px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1120px;
             margin: 0 auto;
+            padding: 40px 24px;
         }
 
+        /* Header */
         .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-top {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
         }
 
         .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.025em;
+        }
+
+        .header-subtitle {
+            margin-top: 4px;
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
         }
 
         .last-updated {
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            margin-top: 10px;
-            display: inline-block;
+            font-size: 0.8125rem;
+            color: var(--text-tertiary);
         }
 
-        .controls {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stat {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            padding: 0 24px;
+        }
+
+        .stat:first-child { padding-left: 0; }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .stat-label {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+        }
+
+        .stat-divider {
+            width: 1px;
+            height: 24px;
+            background: var(--border);
+        }
+
+        /* Navigation tabs */
+        .nav-tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-tab {
+            padding: 10px 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            background: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            transition: color 0.15s, border-color 0.15s;
+            font-family: inherit;
+        }
+
+        .nav-tab:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-tab.active {
+            color: var(--text-primary);
+            border-bottom-color: var(--text-primary);
+        }
+
+        .section { display: none; }
+        .section.active { display: block; }
+
+        /* Filters */
+        .filters {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            align-items: center;
+            gap: 12px;
+            align-items: flex-end;
+            margin-bottom: 16px;
         }
 
         .filter-group {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 4px;
         }
 
         .filter-group label {
-            font-weight: 600;
-            color: #333;
-            font-size: 0.9rem;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
-        select, input {
-            padding: 10px;
-            border: 2px solid #e1e5e9;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease;
-        }
+        .filter-search { flex: 1; min-width: 200px; }
 
-        select:focus, input:focus {
+        select, input[type="text"] {
+            height: 34px;
+            padding: 0 10px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.8125rem;
+            font-family: inherit;
+            color: var(--text-primary);
+            background: var(--bg-raised);
+            transition: border-color 0.15s;
             outline: none;
-            border-color: #667eea;
         }
 
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
+        select option {
+            background: var(--bg-raised);
+            color: var(--text-primary);
         }
 
-        .stat-card {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        select:hover, input[type="text"]:hover {
+            border-color: #33333a;
         }
 
-        .stat-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #667eea;
+        select:focus, input[type="text"]:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px var(--accent-subtle);
         }
 
-        .stat-label {
-            color: #666;
-            margin-top: 5px;
+        input[type="text"]::placeholder {
+            color: var(--text-tertiary);
         }
 
+        /* Feed section */
         .feed {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border: 1px solid var(--border);
+            border-radius: 8px;
             overflow: hidden;
+            background: var(--bg-raised);
         }
 
         .feed-header {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .feed-header h2 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .feed-count {
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
         }
 
         .feed-item {
-            padding: 20px;
-            border-bottom: 1px solid #e1e5e9;
-            transition: background-color 0.3s ease;
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: background-color 0.1s;
         }
 
-        .feed-item:hover {
-            background-color: #f8f9fa;
-        }
-
-        .feed-item:last-child {
-            border-bottom: none;
-        }
+        .feed-item:last-child { border-bottom: none; }
+        .feed-item:hover { background-color: var(--bg-hover); }
 
         .app-header {
             display: flex;
             align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
+            gap: 12px;
         }
 
         .app-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: var(--bg-subtle);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-weight: bold;
-            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            font-size: 0.75rem;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+            border: 1px solid var(--border);
         }
 
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .app-info { flex: 1; min-width: 0; }
+
         .app-info h3 {
-            color: #333;
-            font-size: 1.3rem;
-            margin-bottom: 5px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.3;
+            margin-bottom: 3px;
         }
 
         .app-meta {
             display: flex;
-            gap: 15px;
+            gap: 14px;
             align-items: center;
             flex-wrap: wrap;
         }
 
+        .app-meta > span {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
         .platform-badge {
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
         }
 
-        .android {
-            background: #34a853;
+        .platform-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
         }
 
-        .ios {
-            background: #007aff;
-        }
+        .platform-dot.android { background-color: var(--green); }
+        .platform-dot.ios { background-color: var(--blue); }
 
         .version {
-            color: #666;
-            font-weight: 600;
-        }
-
-        .date {
-            color: #999;
-            font-size: 0.9rem;
+            font-family: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas, monospace;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
         }
 
         .rating {
-            color: #ff9500;
-            font-size: 0.9rem;
+            color: var(--amber);
+            font-weight: 500;
         }
 
-        .downloads {
-            color: #666;
-            font-size: 0.8rem;
+        .rating svg {
+            vertical-align: -1px;
         }
 
         .update-notes {
-            margin-top: 15px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
+            margin-top: 10px;
+            margin-left: 48px;
+            padding: 10px 14px;
+            background: var(--bg-subtle);
+            border-radius: 6px;
+            border: 1px solid var(--border-subtle);
         }
 
-        .update-notes h4 {
-            color: #333;
-            margin-bottom: 8px;
+        .update-notes-label {
+            font-size: 0.6875rem;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin-bottom: 4px;
         }
 
         .update-notes p {
-            color: #666;
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
             line-height: 1.6;
         }
 
-        .no-results {
-            text-align: center;
-            padding: 40px;
-            color: #666;
+        .update-notes .developer {
+            margin-top: 6px;
+            font-size: 0.6875rem;
+            color: var(--text-tertiary);
         }
 
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #667eea;
+        /* Rankings table */
+        .rankings-table-wrapper {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            background: var(--bg-raised);
         }
 
-        .error {
-            text-align: center;
-            padding: 40px;
-            color: #dc3545;
+        .rankings-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8125rem;
         }
 
+        .rankings-table thead th {
+            padding: 10px 16px;
+            text-align: left;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-raised);
+        }
+
+        .rankings-table tbody tr {
+            border-bottom: 1px solid var(--border-subtle);
+            transition: background 0.1s;
+        }
+
+        .rankings-table tbody tr:last-child { border-bottom: none; }
+        .rankings-table tbody tr:hover { background: var(--bg-hover); }
+
+        .rankings-table td {
+            padding: 10px 16px;
+            color: var(--text-primary);
+        }
+
+        .rankings-table .rank-cell {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+            min-width: 50px;
+        }
+
+        .rank-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 28px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--accent-subtle);
+            color: var(--accent);
+        }
+
+        .rank-unranked {
+            color: var(--text-tertiary);
+            font-size: 0.75rem;
+        }
+
+        .app-name-cell {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .app-name-cell .app-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            font-size: 0.625rem;
+        }
+
+        .rating-cell {
+            color: var(--text-secondary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .downloads-cell {
+            color: var(--text-secondary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* IAP section */
+        .iap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 12px;
+        }
+
+        .iap-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px 16px;
+            background: var(--bg-raised);
+            transition: background 0.1s;
+        }
+
+        .iap-card:hover { background: var(--bg-hover); }
+
+        .iap-card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .iap-card-header .app-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            font-size: 0.625rem;
+        }
+
+        .iap-card-header h3 {
+            font-size: 0.8125rem;
+            font-weight: 600;
+        }
+
+        .iap-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 0;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .iap-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .iap-value {
+            font-size: 0.75rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .badge-free {
+            display: inline-block;
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--green);
+        }
+
+        .badge-paid {
+            display: inline-block;
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--amber);
+        }
+
+        .badge-iap {
+            display: inline-block;
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--accent);
+        }
+
+        /* States */
+        .loading, .no-results, .error-state {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+
+        .error-state { color: var(--red); }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            .controls {
-                flex-direction: column;
-            }
+            .container { padding: 20px 16px; }
+            .header-top { flex-direction: column; gap: 4px; }
+            .header h1 { font-size: 1.375rem; }
 
-            .app-header {
-                flex-direction: column;
-                text-align: center;
-            }
+            .stats-bar { flex-wrap: wrap; gap: 0; }
+            .stat { padding: 8px 16px 8px 0; }
+            .stat-divider { display: none; }
 
-            .app-meta {
-                justify-content: center;
+            .nav-tabs { overflow-x: auto; }
+            .nav-tab { padding: 10px 14px; white-space: nowrap; font-size: 0.8125rem; }
+
+            .filters { flex-direction: column; gap: 8px; }
+            .filter-group { width: 100%; }
+            .filter-search { min-width: unset; }
+            select, input[type="text"] { width: 100%; }
+
+            .update-notes { margin-left: 0; }
+            .feed-item { padding: 12px 14px; }
+
+            .iap-grid { grid-template-columns: 1fr; }
+
+            .rankings-table { font-size: 0.75rem; }
+            .rankings-table thead th, .rankings-table td { padding: 8px 10px; }
+        }
+
+        @media (max-width: 480px) {
+            .stats-bar {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 4px;
             }
+            .stat { padding: 6px 0; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🛡️ VPN Apps Update Dashboard</h1>
-            <p>Track the latest updates from your favorite VPN applications</p>
-            <div class="last-updated" id="lastUpdated">
-                🕒 Loading update time...
+        <header class="header">
+            <div class="header-top">
+                <div>
+                    <h1>VPN App Dashboard</h1>
+                    <p class="header-subtitle">Tracking updates across Android and iOS app stores</p>
+                </div>
+                <span class="last-updated" id="lastUpdated">Loading...</span>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-value" id="totalApps">-</span>
+                <span class="stat-label">Apps</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-value" id="recentUpdates">-</span>
+                <span class="stat-label">Updated (7d)</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-value" id="androidApps">-</span>
+                <span class="stat-label">Android</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-value" id="iosApps">-</span>
+                <span class="stat-label">iOS</span>
             </div>
         </div>
 
-        <div class="controls">
-            <div class="filter-group">
-                <label for="platformFilter">Platform</label>
-                <select id="platformFilter">
-                    <option value="all">All Platforms</option>
-                    <option value="android">Android</option>
-                    <option value="ios">iOS</option>
-                </select>
-            </div>
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-section="updates">Updates</button>
+            <button class="nav-tab" data-section="rankings">Rankings</button>
+            <button class="nav-tab" data-section="pricing">Pricing &amp; IAP</button>
+        </nav>
 
-            <div class="filter-group">
-                <label for="appFilter">Application</label>
-                <select id="appFilter">
-                    <option value="all">All Apps</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="searchInput">Search</label>
-                <input type="text" id="searchInput" placeholder="Search updates...">
-            </div>
-        </div>
-
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number" id="totalApps">0</div>
-                <div class="stat-label">Total Apps Tracked</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="recentUpdates">0</div>
-                <div class="stat-label">Recent Updates (7 days)</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="androidApps">0</div>
-                <div class="stat-label">Android Apps</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="iosApps">0</div>
-                <div class="stat-label">iOS Apps</div>
-            </div>
-        </div>
-
-        <div class="feed">
-            <div class="feed-header">
-                <h2>📱 Latest Updates Feed</h2>
-            </div>
-            <div id="feedContainer">
-                <div class="loading">
-                    <p>Loading VPN app updates...</p>
+        <!-- Updates Section -->
+        <section id="section-updates" class="section active">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="platformFilter">Platform</label>
+                    <select id="platformFilter">
+                        <option value="all">All platforms</option>
+                        <option value="android">Android</option>
+                        <option value="ios">iOS</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="appFilter">Application</label>
+                    <select id="appFilter">
+                        <option value="all">All apps</option>
+                    </select>
+                </div>
+                <div class="filter-group filter-search">
+                    <label for="searchInput">Search</label>
+                    <input type="text" id="searchInput" placeholder="Filter updates...">
                 </div>
             </div>
-        </div>
+
+            <div class="feed">
+                <div class="feed-header">
+                    <h2>Update Feed</h2>
+                    <span class="feed-count" id="feedCount"></span>
+                </div>
+                <div id="feedContainer">
+                    <div class="loading">Loading updates...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rankings Section -->
+        <section id="section-rankings" class="section">
+            <div class="rankings-table-wrapper">
+                <table class="rankings-table">
+                    <thead>
+                        <tr>
+                            <th>App</th>
+                            <th>Android Rank</th>
+                            <th>iOS Rank</th>
+                            <th>Android Rating</th>
+                            <th>iOS Rating</th>
+                            <th>Downloads</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rankingsBody">
+                        <tr><td colspan="6" class="loading">Loading rankings...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="margin-top: 12px; font-size: 0.6875rem; color: var(--text-tertiary);">
+                Rankings based on Top Free charts in Tools (Android) and Utilities (iOS) categories, US store. Unranked means outside top 200.
+            </p>
+        </section>
+
+        <!-- Pricing & IAP Section -->
+        <section id="section-pricing" class="section">
+            <div id="iapContainer" class="iap-grid">
+                <div class="loading">Loading pricing data...</div>
+            </div>
+        </section>
     </div>
 
     <script>
-        // Global data storage
         let allData = null;
         let filteredData = [];
 
-        // Load data from static JSON file
+        const textIcons = {
+            'nord': 'N', 'express': 'E', 'cyberghost': 'CG', 'surfshark': 'S',
+            'proton': 'P', 'tunnelbear': 'TB', 'windscribe': 'W', 'mullvad': 'M',
+            'pia': 'PIA', 'purevpn': 'PV', 'torguard': 'TG', 'hideme': 'HM',
+            'ivpn': 'IV', 'vyprvpn': 'VY', 'airvpn': 'AV', 'bitdefender': 'BD',
+            'veepn': 'VE', 'ipvanish': 'IP', 'astrill': 'AS', 'ovpn': 'OV',
+            'adguard': 'AG', 'perfectprivacy': 'PP', 'hma': 'HMA', 'vpnac': 'VA',
+            'privado': 'PR', 'hotspotshield': 'HS', 'clearvpn': 'CV', 'mozilla': 'MZ'
+        };
+
+        // Tab navigation
+        document.querySelectorAll('.nav-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById('section-' + tab.dataset.section).classList.add('active');
+            });
+        });
+
         async function loadData() {
             try {
-                showLoadingState();
-                
                 const response = await fetch('./data/apps-data.json');
-                if (!response.ok) {
-                    throw new Error(`Failed to load data: ${response.status}`);
-                }
-                
+                if (!response.ok) throw new Error('Failed to load data: ' + response.status);
+
                 allData = await response.json();
-                
-                // Update last updated time
+
                 const lastUpdated = new Date(allData.stats.lastUpdated).toLocaleString();
-                document.getElementById('lastUpdated').textContent = `🕒 Last updated: ${lastUpdated}`;
-                
-                // Populate app filter dropdown
+                document.getElementById('lastUpdated').textContent = 'Updated ' + lastUpdated;
+
                 populateAppFilter();
-                
-                // Apply initial filters
                 applyFilters();
-                
+                renderRankings();
+                renderIAP();
+
             } catch (error) {
                 console.error('Failed to load data:', error);
-                showErrorState(error.message);
+                document.getElementById('feedContainer').innerHTML =
+                    '<div class="error-state">Error loading data: ' + error.message + '</div>';
             }
         }
 
         function populateAppFilter() {
             const appFilter = document.getElementById('appFilter');
-            const apps = new Set(allData.feed.map(item => ({ id: item.appId, name: item.appName })));
-            
-            // Clear existing options (keep "All Apps")
-            appFilter.innerHTML = '<option value="all">All Apps</option>';
-            
-            // Add app options
-            Array.from(apps).forEach(app => {
-                const option = document.createElement('option');
-                option.value = app.id;
-                option.textContent = app.name;
-                appFilter.appendChild(option);
+            const seen = new Set();
+            appFilter.innerHTML = '<option value="all">All apps</option>';
+
+            allData.feed.forEach(item => {
+                if (!seen.has(item.appId)) {
+                    seen.add(item.appId);
+                    const option = document.createElement('option');
+                    option.value = item.appId;
+                    option.textContent = item.appName;
+                    appFilter.appendChild(option);
+                }
             });
         }
 
-        function showLoadingState(message = 'Loading VPN app updates...') {
-            const container = document.getElementById('feedContainer');
-            container.innerHTML = `
-                <div class="loading">
-                    <p>${message}</p>
-                </div>
-            `;
-        }
-
-        function showErrorState(errorMessage) {
-            const container = document.getElementById('feedContainer');
-            container.innerHTML = `
-                <div class="error">
-                    <p>⚠️ Error loading data: ${errorMessage}</p>
-                    <p>Please check your connection and try refreshing the page.</p>
-                </div>
-            `;
-        }
-
-        function getAppIcon(appId) {
-            // Use real app store icons if available, fallback to text
+        function getAppIcon(appId, size) {
+            const sz = size || 36;
             if (allData && allData.appIcons && allData.appIcons[appId]) {
-                return `<img src="${allData.appIcons[appId]}" alt="${appId}" style="width: 100%; height: 100%; border-radius: 12px; object-fit: cover;">`;
+                return '<img src="' + allData.appIcons[appId] + '" alt="' + appId + '">';
             }
-            
-            // Fallback to text icons
-            const textIcons = {
-                'nord': 'N',
-                'express': 'E',
-                'cyberghost': 'CG',
-                'surfshark': 'S',
-                'proton': 'P',
-                'exitlag': 'EL',
-                'tunnelbear': 'TB',
-                'windscribe': 'W',
-                'urban': 'U',
-                'pia': 'PIA',
-                'mullvad': 'M'
-            };
             return textIcons[appId] || '?';
         }
 
         function formatDate(dateString) {
             const date = new Date(dateString);
-            return date.toLocaleDateString('en-US', { 
-                year: 'numeric', 
-                month: 'short', 
-                day: 'numeric' 
-            });
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
         }
 
         function renderFeed(data) {
             const container = document.getElementById('feedContainer');
-            
+            const countEl = document.getElementById('feedCount');
+
             if (data.length === 0) {
-                container.innerHTML = `
-                    <div class="no-results">
-                        <p>No updates found matching your filters.</p>
-                    </div>
-                `;
+                container.innerHTML = '<div class="no-results">No updates found matching your filters.</div>';
+                countEl.textContent = '0 updates';
                 return;
             }
 
-            container.innerHTML = data.map(item => `
-                <div class="feed-item">
-                    <div class="app-header">
-                        <div class="app-icon">${getAppIcon(item.appId)}</div>
-                        <div class="app-info">
-                            <h3>${item.appName}</h3>
-                            <div class="app-meta">
-                                <span class="platform-badge ${item.platform}">${item.platform.toUpperCase()}</span>
-                                <span class="version">v${item.version}</span>
-                                <span class="date">${formatDate(item.lastUpdated)}</span>
-                                ${item.rating ? `<span class="rating">⭐ ${item.rating.toFixed(1)}</span>` : ''}
-                                ${item.downloads && item.downloads !== 'N/A' ? `<span class="downloads">📥 ${item.downloads}</span>` : ''}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="update-notes">
-                        <h4>What's New</h4>
-                        <p>${item.notes}</p>
-                        ${item.developer ? `<p style="margin-top: 8px; font-size: 0.9rem; color: #999;">by ${item.developer}</p>` : ''}
-                    </div>
-                </div>
-            `).join('');
+            countEl.textContent = data.length + ' update' + (data.length !== 1 ? 's' : '');
+
+            const starSVG = '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+
+            container.innerHTML = data.map(function(item) {
+                var platformLabel = item.platform === 'ios' ? 'iOS' : 'Android';
+                var ratingHtml = item.rating
+                    ? '<span class="rating">' + starSVG + ' ' + item.rating.toFixed(1) + '</span>'
+                    : '';
+                var downloadsHtml = item.downloads && item.downloads !== 'N/A'
+                    ? '<span>' + item.downloads + '</span>'
+                    : '';
+
+                return '<div class="feed-item">' +
+                    '<div class="app-header">' +
+                        '<div class="app-icon">' + getAppIcon(item.appId) + '</div>' +
+                        '<div class="app-info">' +
+                            '<h3>' + item.appName + '</h3>' +
+                            '<div class="app-meta">' +
+                                '<span class="platform-badge"><span class="platform-dot ' + item.platform + '"></span>' + platformLabel + '</span>' +
+                                '<span class="version">v' + item.version + '</span>' +
+                                '<span>' + formatDate(item.lastUpdated) + '</span>' +
+                                ratingHtml +
+                                downloadsHtml +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="update-notes">' +
+                        '<div class="update-notes-label">Release Notes</div>' +
+                        '<p>' + item.notes + '</p>' +
+                        (item.developer ? '<p class="developer">by ' + item.developer + '</p>' : '') +
+                    '</div>' +
+                '</div>';
+            }).join('');
         }
 
-        function updateStats(data) {
-            const stats = allData.stats;
-            
+        function updateStats() {
+            if (!allData) return;
+            var stats = allData.stats;
             document.getElementById('totalApps').textContent = stats.totalApps;
             document.getElementById('recentUpdates').textContent = stats.recentUpdates;
             document.getElementById('androidApps').textContent = stats.androidApps;
@@ -469,29 +806,78 @@
         }
 
         function applyFilters() {
-            if (!allData) {
-                showLoadingState();
-                return;
-            }
+            if (!allData) return;
 
-            const platformFilter = document.getElementById('platformFilter').value;
-            const appFilter = document.getElementById('appFilter').value;
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            var platformFilter = document.getElementById('platformFilter').value;
+            var appFilter = document.getElementById('appFilter').value;
+            var searchTerm = document.getElementById('searchInput').value.toLowerCase();
 
-            filteredData = allData.feed.filter(item => {
-                const matchesPlatform = platformFilter === 'all' || item.platform === platformFilter;
-                const matchesApp = appFilter === 'all' || item.appId === appFilter;
-                const matchesSearch = searchTerm === '' || 
-                    item.appName.toLowerCase().includes(searchTerm) ||
-                    item.notes.toLowerCase().includes(searchTerm) ||
-                    item.version.includes(searchTerm) ||
-                    (item.developer && item.developer.toLowerCase().includes(searchTerm));
-
+            filteredData = allData.feed.filter(function(item) {
+                var matchesPlatform = platformFilter === 'all' || item.platform === platformFilter;
+                var matchesApp = appFilter === 'all' || item.appId === appFilter;
+                var matchesSearch = searchTerm === '' ||
+                    item.appName.toLowerCase().indexOf(searchTerm) !== -1 ||
+                    item.notes.toLowerCase().indexOf(searchTerm) !== -1 ||
+                    item.version.indexOf(searchTerm) !== -1 ||
+                    (item.developer && item.developer.toLowerCase().indexOf(searchTerm) !== -1);
                 return matchesPlatform && matchesApp && matchesSearch;
             });
 
             renderFeed(filteredData);
-            updateStats(filteredData);
+            updateStats();
+        }
+
+        function renderRankings() {
+            var body = document.getElementById('rankingsBody');
+            if (!allData || !allData.apps) {
+                body.innerHTML = '<tr><td colspan="6" class="no-results">No data available.</td></tr>';
+                return;
+            }
+
+            var rankings = allData.rankings || { android: {}, ios: {} };
+
+            var rows = allData.apps.map(function(app) {
+                var androidRank = rankings.android[app.id];
+                var iosRank = rankings.ios[app.id];
+                var androidRating = app.platforms.android ? app.platforms.android.rating : null;
+                var iosRating = app.platforms.ios ? app.platforms.ios.rating : null;
+                var downloads = app.platforms.android ? app.platforms.android.downloads : 'N/A';
+
+                return '<tr>' +
+                    '<td><div class="app-name-cell"><div class="app-icon">' + getAppIcon(app.id) + '</div>' + app.name + '</div></td>' +
+                    '<td class="rank-cell">' + (androidRank ? '<span class="rank-badge">#' + androidRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
+                    '<td class="rank-cell">' + (iosRank ? '<span class="rank-badge">#' + iosRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
+                    '<td class="rating-cell">' + (androidRating ? androidRating.toFixed(1) : '-') + '</td>' +
+                    '<td class="rating-cell">' + (iosRating ? iosRating.toFixed(1) : '-') + '</td>' +
+                    '<td class="downloads-cell">' + (downloads || '-') + '</td>' +
+                '</tr>';
+            });
+
+            body.innerHTML = rows.join('');
+        }
+
+        function renderIAP() {
+            var container = document.getElementById('iapContainer');
+            if (!allData || !allData.iap) {
+                container.innerHTML = '<div class="no-results">No pricing data available.</div>';
+                return;
+            }
+
+            container.innerHTML = allData.iap.map(function(app) {
+                var androidPrice = app.android ? (app.android.free ? '<span class="badge-free">Free</span>' : '<span class="badge-paid">$' + app.android.price + '</span>') : '<span class="rank-unranked">N/A</span>';
+                var iosPrice = app.ios ? (app.ios.free ? '<span class="badge-free">Free</span>' : '<span class="badge-paid">$' + app.ios.price + '</span>') : '<span class="rank-unranked">N/A</span>';
+                var iapHtml = '';
+                if (app.android && app.android.offersIAP) {
+                    iapHtml = '<div class="iap-row"><span class="iap-label">In-App Purchases</span><span class="iap-value"><span class="badge-iap">' + (app.android.iapRange || 'Yes') + '</span></span></div>';
+                }
+
+                return '<div class="iap-card">' +
+                    '<div class="iap-card-header"><div class="app-icon">' + getAppIcon(app.id) + '</div><h3>' + app.name + '</h3></div>' +
+                    '<div class="iap-row"><span class="iap-label">Android</span><span class="iap-value">' + androidPrice + '</span></div>' +
+                    '<div class="iap-row"><span class="iap-label">iOS</span><span class="iap-value">' + iosPrice + '</span></div>' +
+                    iapHtml +
+                '</div>';
+            }).join('');
         }
 
         // Event listeners
@@ -499,10 +885,7 @@
         document.getElementById('appFilter').addEventListener('change', applyFilters);
         document.getElementById('searchInput').addEventListener('input', applyFilters);
 
-        // Initialize the application
-        document.addEventListener('DOMContentLoaded', () => {
-            loadData();
-        });
+        document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
 </html>
