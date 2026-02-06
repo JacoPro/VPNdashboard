@@ -50,7 +50,7 @@
           "version": "12.50.0",
           "lastUpdated": "2026-01-30",
           "notes": "Our engineers have weeded out some minor bugs to enrich your VPN experience.",
-          "rating": 4.780258,
+          "rating": 4.7802935,
           "downloads": "50,000,000+",
           "developer": "ExpressVPN",
           "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
@@ -688,7 +688,7 @@
           "version": "VARY",
           "lastUpdated": "2026-01-19",
           "notes": "+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.<br><br>With every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we&#39;ll help find a fix.",
-          "rating": 4.4100266,
+          "rating": 4.4102225,
           "downloads": "10,000,000+",
           "developer": "IPVanish VPN",
           "url": "https://play.google.com/store/apps/details?id=com.ixolit.ipvanish&hl=en&gl=us",
@@ -1292,7 +1292,7 @@
       "version": "12.50.0",
       "lastUpdated": "2026-01-30",
       "notes": "Our engineers have weeded out some minor bugs to enrich your VPN experience.",
-      "rating": 4.780258,
+      "rating": 4.7802935,
       "downloads": "50,000,000+",
       "developer": "ExpressVPN",
       "url": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=en&gl=us",
@@ -1423,7 +1423,7 @@
       "version": "VARY",
       "lastUpdated": "2026-01-19",
       "notes": "+ RAM-only servers are now available in IPVanish and can be filtered in the Locations list.<br><br>With every release, we make improvements under the hood and squash any bugs that come up. Having issues? Contact us at support@ipvanish.com and we&#39;ll help find a fix.",
-      "rating": 4.4100266,
+      "rating": 4.4102225,
       "downloads": "10,000,000+",
       "developer": "IPVanish VPN",
       "url": "https://play.google.com/store/apps/details?id=com.ixolit.ipvanish&hl=en&gl=us",
@@ -1870,7 +1870,7 @@
     "recentUpdates": 13,
     "androidApps": 27,
     "iosApps": 26,
-    "lastUpdated": "2026-02-06T19:30:21.220Z"
+    "lastUpdated": "2026-02-06T19:34:30.825Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
@@ -2297,7 +2297,7 @@
   },
   "totalApps": 28,
   "metadata": {
-    "generatedAt": "2026-02-06T19:30:25.932Z",
+    "generatedAt": "2026-02-06T19:34:34.444Z",
     "totalExecutionTime": 92,
     "successfulApps": 27
   }
