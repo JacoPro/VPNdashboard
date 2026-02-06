@@ -3916,11 +3916,11 @@
     }
   ],
   "stats": {
-    "totalApps": 27,
+    "totalApps": 28,
     "recentUpdates": 13,
-    "androidApps": 27,
-    "iosApps": 26,
-    "lastUpdated": "2026-02-06T19:34:30.825Z"
+    "androidApps": 90,
+    "iosApps": 105,
+    "lastUpdated": "2026-02-06T19:38:50.561Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/4b/e6594bcd-6a2a-679f-4141-73661278a61b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
@@ -4347,8 +4347,8 @@
   },
   "totalApps": 28,
   "metadata": {
-    "generatedAt": "2026-02-06T19:34:34.444Z",
-    "totalExecutionTime": 92,
+    "generatedAt": "2026-02-06T19:38:53.135Z",
+    "totalExecutionTime": 89,
     "successfulApps": 27
   }
 }
