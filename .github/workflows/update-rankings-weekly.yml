@@ -1,32 +1,15 @@
-name: Update VPN App Data
+name: Update Rankings (Weekly)
 
 on:
   schedule:
-    # Run daily at 06:00 UTC for app data and rankings
-    # Note: Rankings update frequency could be reduced to weekly if needed
-    - cron: '0 6 * * *'
+    # Run every Monday at 02:00 UTC for rankings update
+    - cron: '0 2 * * 1'
   workflow_dispatch: # Allow manual triggering
-    inputs:
-      update_type:
-        description: 'Type of update to run'
-        required: false
-        default: 'full'
-        type: choice
-        options:
-          - full
-          - rankings_only
-  push:
-    branches: [ main ]
-    paths:
-      - 'config/apps.json'
-      - 'config/subscriptions.json'
-      - 'scrape-data.js'
-      - '.github/workflows/update-data.yml'
 
 jobs:
-  update-data:
+  update-rankings:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -42,20 +25,18 @@ jobs:
     - name: Install dependencies
       run: npm install --production
 
-    - name: Scrape app store data
+    - name: Scrape rankings data
       run: node scrape-github.js
 
     - name: Prepare GitHub Pages files
       run: |
         cp static-index.html index.html
-        # Copy subscriptions config to be accessible by the frontend
-        mkdir -p config
         echo "GitHub Pages files prepared"
 
     - name: Check for data changes
       id: check-changes
       run: |
-        if git diff --quiet data/ index.html config/subscriptions.json; then
+        if git diff --quiet data/apps-data.json index.html; then
           echo "has_changes=false" >> $GITHUB_OUTPUT
         else
           echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -67,24 +48,21 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git pull --rebase origin main || true
-        git add data/ index.html config/subscriptions.json
-        git commit -m "🤖 Update VPN app data - $(date -u +'%Y-%m-%d %H:%M UTC')" || true
+        git add data/ index.html
+        git commit -m "📊 Update VPN rankings (weekly) - $(date -u +'%Y-%m-%d %H:%M UTC')" || true
         git push --force-with-lease
 
     - name: Create deployment summary
       if: always()
       run: |
-        echo "## 📊 VPN Dashboard Data Update" >> $GITHUB_STEP_SUMMARY
+        echo "## 📊 VPN Rankings Weekly Update" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**Timestamp:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
         echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
         echo "**Data Changes:** ${{ steps.check-changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         if [ -f data/apps-data.json ]; then
-          TOTAL_APPS=$(node -p "JSON.parse(require('fs').readFileSync('data/apps-data.json', 'utf8')).totalApps")
-          FEED_COUNT=$(node -p "JSON.parse(require('fs').readFileSync('data/apps-data.json', 'utf8')).feed.length")
-          echo "**Apps Tracked:** $TOTAL_APPS" >> $GITHUB_STEP_SUMMARY
-          echo "**Feed Items:** $FEED_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "Rankings data updated successfully" >> $GITHUB_STEP_SUMMARY
         fi
 
 permissions:

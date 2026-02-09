@@ -1,0 +1,900 @@
+{
+  "subscriptions": [
+    {
+      "id": "nord",
+      "name": "NordVPN",
+      "plans": [
+        {
+          "name": "Complete",
+          "duration": "2 years",
+          "price": "$3.09/mo",
+          "billedAs": "$83.43 billed every 2 years",
+          "features": ["VPN", "Password Manager", "Data Breach Scanner", "1TB Cloud Storage"]
+        },
+        {
+          "name": "Plus",
+          "duration": "2 years",
+          "price": "$4.09/mo",
+          "billedAs": "$110.43 billed every 2 years",
+          "features": ["VPN", "Password Manager", "Data Breach Scanner"]
+        },
+        {
+          "name": "Standard",
+          "duration": "2 years",
+          "price": "$3.39/mo",
+          "billedAs": "$91.53 billed every 2 years",
+          "features": ["VPN"]
+        },
+        {
+          "name": "Complete",
+          "duration": "1 year",
+          "price": "$4.99/mo",
+          "billedAs": "$59.88 billed annually",
+          "features": ["VPN", "Password Manager", "Data Breach Scanner", "1TB Cloud Storage"]
+        },
+        {
+          "name": "Standard",
+          "duration": "1 month",
+          "price": "$12.99/mo",
+          "billedAs": "$12.99 billed monthly",
+          "features": ["VPN"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "express",
+      "name": "ExpressVPN",
+      "plans": [
+        {
+          "name": "Annual",
+          "duration": "12 months",
+          "price": "$6.67/mo",
+          "billedAs": "$99.95 billed annually + 3 months free",
+          "features": ["Unlimited bandwidth", "10 device connections", "24/7 support"]
+        },
+        {
+          "name": "6 Months",
+          "duration": "6 months",
+          "price": "$9.99/mo",
+          "billedAs": "$59.95 billed every 6 months",
+          "features": ["Unlimited bandwidth", "10 device connections", "24/7 support"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$12.95/mo",
+          "billedAs": "$12.95 billed monthly",
+          "features": ["Unlimited bandwidth", "10 device connections", "24/7 support"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "cyberghost",
+      "name": "CyberGhost VPN",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$2.03/mo",
+          "billedAs": "$56.94 billed every 2 years + 4 months free",
+          "features": ["7 simultaneous connections", "NoSpy servers", "Dedicated IP available"]
+        },
+        {
+          "name": "6 Month Plan",
+          "duration": "6 months",
+          "price": "$6.99/mo",
+          "billedAs": "$41.94 billed every 6 months",
+          "features": ["7 simultaneous connections", "NoSpy servers"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$12.99/mo",
+          "billedAs": "$12.99 billed monthly",
+          "features": ["7 simultaneous connections"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark VPN",
+      "plans": [
+        {
+          "name": "Surfshark One",
+          "duration": "2 years",
+          "price": "$2.69/mo",
+          "billedAs": "$69.59 billed every 2 years + 2 months free",
+          "features": ["VPN", "Antivirus", "Webcam protection", "Personal data leak alerts"]
+        },
+        {
+          "name": "Surfshark Starter",
+          "duration": "2 years",
+          "price": "$1.99/mo",
+          "billedAs": "$53.27 billed every 2 years + 2 months free",
+          "features": ["VPN", "Unlimited devices"]
+        },
+        {
+          "name": "Surfshark One",
+          "duration": "1 year",
+          "price": "$3.99/mo",
+          "billedAs": "$47.88 billed annually",
+          "features": ["VPN", "Antivirus", "Webcam protection", "Personal data leak alerts"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$15.45/mo",
+          "billedAs": "$15.45 billed monthly",
+          "features": ["VPN", "Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "proton",
+      "name": "Proton VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free forever",
+          "features": ["1 device", "100+ servers in 3 countries", "Medium speed"]
+        },
+        {
+          "name": "Plus",
+          "duration": "2 years",
+          "price": "$3.59/mo",
+          "billedAs": "$86.16 billed every 2 years",
+          "features": ["10 devices", "3000+ servers in 65+ countries", "Highest speed", "NetShield"]
+        },
+        {
+          "name": "Plus",
+          "duration": "1 year",
+          "price": "$4.99/mo",
+          "billedAs": "$59.88 billed annually",
+          "features": ["10 devices", "3000+ servers in 65+ countries", "Highest speed", "NetShield"]
+        },
+        {
+          "name": "Plus",
+          "duration": "1 month",
+          "price": "$9.99/mo",
+          "billedAs": "$9.99 billed monthly",
+          "features": ["10 devices", "3000+ servers in 65+ countries", "Highest speed", "NetShield"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "tunnelbear",
+      "name": "TunnelBear VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 2GB/month",
+          "features": ["2GB data/month", "Unlimited devices"]
+        },
+        {
+          "name": "Unlimited",
+          "duration": "3 years",
+          "price": "$3.33/mo",
+          "billedAs": "$119.99 billed every 3 years",
+          "features": ["Unlimited data", "Unlimited devices"]
+        },
+        {
+          "name": "Unlimited",
+          "duration": "1 year",
+          "price": "$4.17/mo",
+          "billedAs": "$49.99 billed annually",
+          "features": ["Unlimited data", "Unlimited devices"]
+        },
+        {
+          "name": "Unlimited",
+          "duration": "1 month",
+          "price": "$9.99/mo",
+          "billedAs": "$9.99 billed monthly",
+          "features": ["Unlimited data", "Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "windscribe",
+      "name": "Windscribe VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 10GB/month",
+          "features": ["10GB data/month", "10+ countries", "Unlimited devices"]
+        },
+        {
+          "name": "Pro",
+          "duration": "1 year",
+          "price": "$4.08/mo",
+          "billedAs": "$49.00 billed annually",
+          "features": ["Unlimited data", "60+ countries", "Unlimited devices", "Port forwarding"]
+        },
+        {
+          "name": "Pro",
+          "duration": "1 month",
+          "price": "$9.00/mo",
+          "billedAs": "$9.00 billed monthly",
+          "features": ["Unlimited data", "60+ countries", "Unlimited devices"]
+        },
+        {
+          "name": "Build a Plan",
+          "duration": "Custom",
+          "price": "$1.00+/mo",
+          "billedAs": "Pay per location",
+          "features": ["Unlimited data", "Choose specific locations", "Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad VPN",
+      "plans": [
+        {
+          "name": "Single Plan",
+          "duration": "1 month",
+          "price": "€5.00/mo",
+          "billedAs": "€5.00 per month (no long-term contracts)",
+          "features": ["Unlimited devices", "No account creation", "WireGuard support", "600+ servers"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "pia",
+      "name": "Private Internet Access",
+      "plans": [
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "$2.03/mo",
+          "billedAs": "$79.00 billed every 3 years",
+          "features": ["Unlimited devices", "10Gbps network", "No logs"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.33/mo",
+          "billedAs": "$39.95 billed annually",
+          "features": ["Unlimited devices", "10Gbps network", "No logs"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$11.95/mo",
+          "billedAs": "$11.95 billed monthly",
+          "features": ["Unlimited devices", "10Gbps network", "No logs"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "purevpn",
+      "name": "PureVPN",
+      "plans": [
+        {
+          "name": "5 Year Plan",
+          "duration": "5 years",
+          "price": "$1.33/mo",
+          "billedAs": "$79.95 billed every 5 years",
+          "features": ["10 devices", "DDoS protection", "Split tunneling", "Port forwarding"]
+        },
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$1.99/mo",
+          "billedAs": "$47.76 billed every 2 years",
+          "features": ["10 devices", "DDoS protection", "Split tunneling"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.74/mo",
+          "billedAs": "$44.95 billed annually",
+          "features": ["10 devices", "DDoS protection"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$10.95/mo",
+          "billedAs": "$10.95 billed monthly",
+          "features": ["10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "torguard",
+      "name": "TorGuard VPN",
+      "plans": [
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "$2.99/mo",
+          "billedAs": "$107.64 billed every 3 years",
+          "features": ["8 simultaneous connections", "Stealth VPN", "No logs"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$4.99/mo",
+          "billedAs": "$59.88 billed annually",
+          "features": ["8 simultaneous connections", "Stealth VPN"]
+        },
+        {
+          "name": "Quarterly",
+          "duration": "3 months",
+          "price": "$6.66/mo",
+          "billedAs": "$19.99 billed every 3 months",
+          "features": ["8 simultaneous connections"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$9.99/mo",
+          "billedAs": "$9.99 billed monthly",
+          "features": ["8 simultaneous connections"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "hideme",
+      "name": "Hide.me VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 10GB/month",
+          "features": ["10GB data/month", "1 device", "5 locations"]
+        },
+        {
+          "name": "Premium 2 Year",
+          "duration": "2 years",
+          "price": "$2.59/mo",
+          "billedAs": "$62.16 billed every 2 years",
+          "features": ["Unlimited data", "10 devices", "75+ locations", "No logs"]
+        },
+        {
+          "name": "Premium 1 Year",
+          "duration": "1 year",
+          "price": "$4.99/mo",
+          "billedAs": "$59.88 billed annually",
+          "features": ["Unlimited data", "10 devices", "75+ locations"]
+        },
+        {
+          "name": "Premium Monthly",
+          "duration": "1 month",
+          "price": "$9.95/mo",
+          "billedAs": "$9.95 billed monthly",
+          "features": ["Unlimited data", "10 devices", "75+ locations"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "ivpn",
+      "name": "IVPN",
+      "plans": [
+        {
+          "name": "Pro 3 Year",
+          "duration": "3 years",
+          "price": "$3.99/mo",
+          "billedAs": "$143.64 billed every 3 years",
+          "features": ["7 devices", "Multi-hop", "Port forwarding", "AntiTracker"]
+        },
+        {
+          "name": "Pro 1 Year",
+          "duration": "1 year",
+          "price": "$5.00/mo",
+          "billedAs": "$60.00 billed annually",
+          "features": ["7 devices", "Multi-hop", "Port forwarding", "AntiTracker"]
+        },
+        {
+          "name": "Standard 1 Year",
+          "duration": "1 year",
+          "price": "$3.00/mo",
+          "billedAs": "$36.00 billed annually",
+          "features": ["2 devices", "Standard servers", "AntiTracker"]
+        },
+        {
+          "name": "Pro Weekly",
+          "duration": "1 week",
+          "price": "$2.00/week",
+          "billedAs": "$2.00 billed weekly",
+          "features": ["7 devices", "Multi-hop", "Short-term use"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "vyprvpn",
+      "name": "VyprVPN",
+      "plans": [
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "$1.67/mo",
+          "billedAs": "$60.00 billed every 3 years",
+          "features": ["10 devices", "Chameleon protocol", "VyprDNS", "Cloud storage"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.00/mo",
+          "billedAs": "$36.00 billed annually",
+          "features": ["10 devices", "Chameleon protocol", "VyprDNS"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$10.00/mo",
+          "billedAs": "$10.00 billed monthly",
+          "features": ["10 devices", "Chameleon protocol"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "airvpn",
+      "name": "AirVPN",
+      "plans": [
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "€2.75/mo",
+          "billedAs": "€99.00 billed every 3 years",
+          "features": ["Unlimited devices", "Port forwarding", "Split tunneling", "No logs"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "€4.50/mo",
+          "billedAs": "€54.00 billed annually",
+          "features": ["Unlimited devices", "Port forwarding", "Split tunneling"]
+        },
+        {
+          "name": "3 Months",
+          "duration": "3 months",
+          "price": "€6.00/mo",
+          "billedAs": "€18.00 billed every 3 months",
+          "features": ["Unlimited devices", "Port forwarding"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "€7.00/mo",
+          "billedAs": "€7.00 billed monthly",
+          "features": ["Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 200MB/day",
+          "features": ["200MB data/day", "1 device", "Limited servers"]
+        },
+        {
+          "name": "Premium 1 Year",
+          "duration": "1 year",
+          "price": "$2.92/mo",
+          "billedAs": "$34.99 billed annually",
+          "features": ["Unlimited data", "10 devices", "4000+ servers", "No logs"]
+        },
+        {
+          "name": "Premium Monthly",
+          "duration": "1 month",
+          "price": "$6.99/mo",
+          "billedAs": "$6.99 billed monthly",
+          "features": ["Unlimited data", "10 devices", "4000+ servers"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "veepn",
+      "name": "VeePN",
+      "plans": [
+        {
+          "name": "5 Year Plan",
+          "duration": "5 years",
+          "price": "$1.67/mo",
+          "billedAs": "$100.00 billed every 5 years",
+          "features": ["10 devices", "2500+ servers", "Double VPN", "NetGuard"]
+        },
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$2.99/mo",
+          "billedAs": "$71.76 billed every 2 years",
+          "features": ["10 devices", "2500+ servers", "Double VPN"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.99/mo",
+          "billedAs": "$47.88 billed annually",
+          "features": ["10 devices", "2500+ servers"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$10.99/mo",
+          "billedAs": "$10.99 billed monthly",
+          "features": ["10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "ipvanish",
+      "name": "IPVanish",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$2.19/mo",
+          "billedAs": "$52.49 billed every 2 years",
+          "features": ["Unlimited devices", "SOCKS5 proxy", "Split tunneling", "No logs"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$2.99/mo",
+          "billedAs": "$35.88 billed annually",
+          "features": ["Unlimited devices", "SOCKS5 proxy", "Split tunneling"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$10.99/mo",
+          "billedAs": "$10.99 billed monthly",
+          "features": ["Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "astrill",
+      "name": "Astrill VPN",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$7.50/mo",
+          "billedAs": "$180.00 billed every 2 years",
+          "features": ["5 devices", "Stealth VPN", "Smart mode", "Port forwarding"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$10.00/mo",
+          "billedAs": "$120.00 billed annually",
+          "features": ["5 devices", "Stealth VPN", "Smart mode"]
+        },
+        {
+          "name": "6 Months",
+          "duration": "6 months",
+          "price": "$12.50/mo",
+          "billedAs": "$75.00 billed every 6 months",
+          "features": ["5 devices", "Stealth VPN"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$20.00/mo",
+          "billedAs": "$20.00 billed monthly",
+          "features": ["5 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "ovpn",
+      "name": "OVPN",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "€5.00/mo",
+          "billedAs": "€120.00 billed every 2 years",
+          "features": ["6 devices", "Multihop", "Port forwarding", "Dedicated IP available"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "€6.00/mo",
+          "billedAs": "€72.00 billed annually",
+          "features": ["6 devices", "Multihop", "Port forwarding"]
+        },
+        {
+          "name": "3 Months",
+          "duration": "3 months",
+          "price": "€8.00/mo",
+          "billedAs": "€24.00 billed every 3 months",
+          "features": ["6 devices", "Multihop"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "€10.00/mo",
+          "billedAs": "€10.00 billed monthly",
+          "features": ["6 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard VPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 3GB/month",
+          "features": ["3GB data/month", "2 devices", "Limited servers"]
+        },
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$2.99/mo",
+          "billedAs": "$71.76 billed every 2 years",
+          "features": ["Unlimited data", "10 devices", "65+ locations", "DNS filtering"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.99/mo",
+          "billedAs": "$47.88 billed annually",
+          "features": ["Unlimited data", "10 devices", "65+ locations"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$11.99/mo",
+          "billedAs": "$11.99 billed monthly",
+          "features": ["Unlimited data", "10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "perfectprivacy",
+      "name": "Perfect Privacy",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "€8.95/mo",
+          "billedAs": "€214.80 billed every 2 years",
+          "features": ["Unlimited devices", "Multi-hop cascading", "Port forwarding", "TrackStop"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "€9.99/mo",
+          "billedAs": "€119.88 billed annually",
+          "features": ["Unlimited devices", "Multi-hop cascading", "Port forwarding"]
+        },
+        {
+          "name": "3 Months",
+          "duration": "3 months",
+          "price": "€11.99/mo",
+          "billedAs": "€35.97 billed every 3 months",
+          "features": ["Unlimited devices", "Multi-hop cascading"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "€12.99/mo",
+          "billedAs": "€12.99 billed monthly",
+          "features": ["Unlimited devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "hma",
+      "name": "HMA VPN",
+      "plans": [
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "$2.99/mo",
+          "billedAs": "$107.64 billed every 3 years",
+          "features": ["10 devices", "1100+ servers", "Split tunneling", "IP Shuffle"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$4.39/mo",
+          "billedAs": "$52.68 billed annually",
+          "features": ["10 devices", "1100+ servers", "Split tunneling"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$11.99/mo",
+          "billedAs": "$11.99 billed monthly",
+          "features": ["10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "vpnac",
+      "name": "VPN.ac",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$3.75/mo",
+          "billedAs": "$90.00 billed every 2 years",
+          "features": ["6 devices", "Double VPN", "SecureProxy", "Port forwarding"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$4.80/mo",
+          "billedAs": "$57.60 billed annually",
+          "features": ["6 devices", "Double VPN", "SecureProxy"]
+        },
+        {
+          "name": "3 Months",
+          "duration": "3 months",
+          "price": "$6.00/mo",
+          "billedAs": "$18.00 billed every 3 months",
+          "features": ["6 devices", "Double VPN"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$9.00/mo",
+          "billedAs": "$9.00 billed monthly",
+          "features": ["6 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "privado",
+      "name": "PrivadoVPN",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with 10GB/month",
+          "features": ["10GB data/month", "1 device", "12 cities"]
+        },
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$1.99/mo",
+          "billedAs": "$47.76 billed every 2 years",
+          "features": ["Unlimited data", "10 devices", "65+ cities", "SOCKS5"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$2.99/mo",
+          "billedAs": "$35.88 billed annually",
+          "features": ["Unlimited data", "10 devices", "65+ cities"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$10.99/mo",
+          "billedAs": "$10.99 billed monthly",
+          "features": ["Unlimited data", "10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "hotspotshield",
+      "name": "Hotspot Shield",
+      "plans": [
+        {
+          "name": "Free",
+          "duration": "Forever",
+          "price": "$0.00",
+          "billedAs": "Free with ads and 500MB/day",
+          "features": ["500MB data/day", "1 device", "1 location", "Ad-supported"]
+        },
+        {
+          "name": "3 Year Plan",
+          "duration": "3 years",
+          "price": "$2.99/mo",
+          "billedAs": "$107.64 billed every 3 years",
+          "features": ["Unlimited data", "10 devices", "115+ locations", "Malware protection"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$7.99/mo",
+          "billedAs": "$95.88 billed annually",
+          "features": ["Unlimited data", "10 devices", "115+ locations"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$12.99/mo",
+          "billedAs": "$12.99 billed monthly",
+          "features": ["Unlimited data", "10 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "clearvpn",
+      "name": "ClearVPN",
+      "plans": [
+        {
+          "name": "2 Year Plan",
+          "duration": "2 years",
+          "price": "$2.33/mo",
+          "billedAs": "$55.92 billed every 2 years",
+          "features": ["6 devices", "Smart routing", "Streaming shortcuts", "Ad blocker"]
+        },
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$3.33/mo",
+          "billedAs": "$39.96 billed annually",
+          "features": ["6 devices", "Smart routing", "Streaming shortcuts"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$9.99/mo",
+          "billedAs": "$9.99 billed monthly",
+          "features": ["6 devices"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "id": "mozilla",
+      "name": "Mozilla VPN",
+      "plans": [
+        {
+          "name": "1 Year Plan",
+          "duration": "1 year",
+          "price": "$4.99/mo",
+          "billedAs": "$59.88 billed annually",
+          "features": ["5 devices", "500+ servers in 30+ countries", "No activity logs", "Device-level encryption"]
+        },
+        {
+          "name": "Monthly",
+          "duration": "1 month",
+          "price": "$9.99/mo",
+          "billedAs": "$9.99 billed monthly",
+          "features": ["5 devices", "500+ servers in 30+ countries", "No activity logs"]
+        }
+      ],
+      "lastUpdated": "2026-02-09"
+    }
+  ]
+}

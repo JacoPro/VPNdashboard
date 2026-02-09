@@ -375,6 +375,34 @@
             letter-spacing: 0.05em;
             border-bottom: 1px solid var(--border);
             background: var(--bg-raised);
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.15s, color 0.15s;
+            position: relative;
+        }
+
+        .rankings-table thead th:hover {
+            background: var(--bg-hover);
+            color: var(--text-secondary);
+        }
+
+        .rankings-table thead th.sortable::after {
+            content: '⇅';
+            margin-left: 6px;
+            opacity: 0.3;
+            font-size: 0.75rem;
+        }
+
+        .rankings-table thead th.sorted-asc::after {
+            content: '↑';
+            opacity: 1;
+            color: var(--accent);
+        }
+
+        .rankings-table thead th.sorted-desc::after {
+            content: '↓';
+            opacity: 1;
+            color: var(--accent);
         }
 
         .rankings-table tbody tr {
@@ -437,89 +465,123 @@
             font-variant-numeric: tabular-nums;
         }
 
-        /* IAP section */
-        .iap-grid {
+        /* Pricing section */
+        .pricing-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 12px;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 16px;
         }
 
-        .iap-card {
+        .pricing-card {
             border: 1px solid var(--border);
             border-radius: 8px;
-            padding: 14px 16px;
             background: var(--bg-raised);
-            transition: background 0.1s;
+            overflow: hidden;
         }
 
-        .iap-card:hover { background: var(--bg-hover); }
-
-        .iap-card-header {
+        .pricing-card-header {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
+            gap: 12px;
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-subtle);
         }
 
-        .iap-card-header .app-icon {
-            width: 28px;
-            height: 28px;
+        .pricing-card-header .app-icon {
+            width: 32px;
+            height: 32px;
             border-radius: 6px;
             font-size: 0.625rem;
         }
 
-        .iap-card-header h3 {
-            font-size: 0.8125rem;
+        .pricing-card-header h3 {
+            font-size: 0.875rem;
             font-weight: 600;
+            color: var(--text-primary);
         }
 
-        .iap-row {
+        .pricing-plan {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: background 0.1s;
+        }
+
+        .pricing-plan:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-plan:hover {
+            background: var(--bg-hover);
+        }
+
+        .plan-header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            padding: 6px 0;
-            border-top: 1px solid var(--border-subtle);
+            align-items: baseline;
+            margin-bottom: 6px;
         }
 
-        .iap-label {
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
-
-        .iap-value {
-            font-size: 0.75rem;
+        .plan-name {
+            font-size: 0.8125rem;
+            font-weight: 600;
             color: var(--text-primary);
+        }
+
+        .plan-price {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--accent);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .plan-duration {
+            font-size: 0.6875rem;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin-bottom: 4px;
+        }
+
+        .plan-billed {
+            font-size: 0.6875rem;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .plan-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 6px;
+        }
+
+        .plan-feature-tag {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.625rem;
             font-weight: 500;
+            background: var(--bg-subtle);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .pricing-card-empty {
+            padding: 24px 16px;
+            text-align: center;
+            color: var(--text-tertiary);
+            font-size: 0.75rem;
         }
 
         .badge-free {
             display: inline-block;
-            padding: 1px 6px;
+            padding: 2px 6px;
             border-radius: 3px;
             font-size: 0.6875rem;
             font-weight: 500;
             background: rgba(34, 197, 94, 0.1);
             color: var(--green);
-        }
-
-        .badge-paid {
-            display: inline-block;
-            padding: 1px 6px;
-            border-radius: 3px;
-            font-size: 0.6875rem;
-            font-weight: 500;
-            background: rgba(245, 158, 11, 0.1);
-            color: var(--amber);
-        }
-
-        .badge-iap {
-            display: inline-block;
-            padding: 1px 6px;
-            border-radius: 3px;
-            font-size: 0.6875rem;
-            font-weight: 500;
-            background: rgba(59, 130, 246, 0.1);
-            color: var(--accent);
         }
 
         /* States */
@@ -553,7 +615,7 @@
             .update-notes { margin-left: 0; }
             .feed-item { padding: 12px 14px; }
 
-            .iap-grid { grid-template-columns: 1fr; }
+            .pricing-grid { grid-template-columns: 1fr; }
 
             .rankings-table { font-size: 0.75rem; }
             .rankings-table thead th, .rankings-table td { padding: 8px 10px; }
@@ -649,12 +711,12 @@
                 <table class="rankings-table">
                     <thead>
                         <tr>
-                            <th>App</th>
-                            <th>Android Rank</th>
-                            <th>iOS Rank</th>
-                            <th>Android Rating</th>
-                            <th>iOS Rating</th>
-                            <th>Downloads</th>
+                            <th class="sortable" data-column="name">App</th>
+                            <th class="sortable" data-column="androidRank">Android Rank</th>
+                            <th class="sortable" data-column="iosRank">iOS Rank</th>
+                            <th class="sortable" data-column="androidRating">Android Rating</th>
+                            <th class="sortable" data-column="iosRating">iOS Rating</th>
+                            <th class="sortable" data-column="downloads">Downloads</th>
                         </tr>
                     </thead>
                     <tbody id="rankingsBody">
@@ -669,9 +731,12 @@
 
         <!-- Pricing & IAP Section -->
         <section id="section-pricing" class="section">
-            <div id="iapContainer" class="iap-grid">
+            <div id="pricingContainer" class="pricing-grid">
                 <div class="loading">Loading pricing data...</div>
             </div>
+            <p style="margin-top: 16px; font-size: 0.6875rem; color: var(--text-tertiary);">
+                Pricing information is manually curated and updated monthly. Actual prices may vary by region and promotion.
+            </p>
         </section>
     </div>
 
@@ -712,12 +777,28 @@
                 populateAppFilter();
                 applyFilters();
                 renderRankings();
-                renderIAP();
+                await loadAndRenderPricing();
 
             } catch (error) {
                 console.error('Failed to load data:', error);
                 document.getElementById('feedContainer').innerHTML =
                     '<div class="error-state">Error loading data: ' + error.message + '</div>';
+            }
+        }
+
+        async function loadAndRenderPricing() {
+            try {
+                const response = await fetch('./config/subscriptions.json');
+                if (!response.ok) {
+                    console.warn('Subscriptions config not found, using fallback');
+                    renderPricingFallback();
+                    return;
+                }
+                const subscriptionsData = await response.json();
+                renderPricing(subscriptionsData.subscriptions);
+            } catch (error) {
+                console.warn('Failed to load subscriptions:', error);
+                renderPricingFallback();
             }
         }
 
@@ -827,55 +908,206 @@
             updateStats();
         }
 
-        function renderRankings() {
+        let rankingsData = [];
+        let currentSort = { column: null, direction: 'asc' };
+
+        function parseDownloads(downloadStr) {
+            if (!downloadStr || downloadStr === 'N/A' || downloadStr === '-') return 0;
+            var num = downloadStr.replace(/[+,]/g, '');
+            return parseInt(num) || 0;
+        }
+
+        function sortRankings(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            rankingsData.sort(function(a, b) {
+                var aVal, bVal;
+                var multiplier = currentSort.direction === 'asc' ? 1 : -1;
+
+                switch (column) {
+                    case 'name':
+                        aVal = a.name.toLowerCase();
+                        bVal = b.name.toLowerCase();
+                        return aVal < bVal ? -1 * multiplier : aVal > bVal ? 1 * multiplier : 0;
+
+                    case 'androidRank':
+                        aVal = a.androidRank || 999999;
+                        bVal = b.androidRank || 999999;
+                        return (aVal - bVal) * multiplier;
+
+                    case 'iosRank':
+                        aVal = a.iosRank || 999999;
+                        bVal = b.iosRank || 999999;
+                        return (aVal - bVal) * multiplier;
+
+                    case 'androidRating':
+                        aVal = a.androidRating || 0;
+                        bVal = b.androidRating || 0;
+                        return (aVal - bVal) * multiplier;
+
+                    case 'iosRating':
+                        aVal = a.iosRating || 0;
+                        bVal = b.iosRating || 0;
+                        return (aVal - bVal) * multiplier;
+
+                    case 'downloads':
+                        aVal = parseDownloads(a.downloads);
+                        bVal = parseDownloads(b.downloads);
+                        return (aVal - bVal) * multiplier;
+
+                    default:
+                        return 0;
+                }
+            });
+
+            renderRankingsTable();
+            updateSortHeaders();
+        }
+
+        function updateSortHeaders() {
+            document.querySelectorAll('.rankings-table thead th').forEach(function(th) {
+                th.classList.remove('sorted-asc', 'sorted-desc');
+                if (th.dataset.column === currentSort.column) {
+                    th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+                }
+            });
+        }
+
+        function renderRankingsTable() {
             var body = document.getElementById('rankingsBody');
-            if (!allData || !allData.apps) {
+            if (rankingsData.length === 0) {
                 body.innerHTML = '<tr><td colspan="6" class="no-results">No data available.</td></tr>';
                 return;
             }
 
-            var rankings = allData.rankings || { android: {}, ios: {} };
-
-            var rows = allData.apps.map(function(app) {
-                var androidRank = rankings.android[app.id];
-                var iosRank = rankings.ios[app.id];
-                var androidRating = app.platforms.android ? app.platforms.android.rating : null;
-                var iosRating = app.platforms.ios ? app.platforms.ios.rating : null;
-                var downloads = app.platforms.android ? app.platforms.android.downloads : 'N/A';
-
+            var rows = rankingsData.map(function(item) {
                 return '<tr>' +
-                    '<td><div class="app-name-cell"><div class="app-icon">' + getAppIcon(app.id) + '</div>' + app.name + '</div></td>' +
-                    '<td class="rank-cell">' + (androidRank ? '<span class="rank-badge">#' + androidRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
-                    '<td class="rank-cell">' + (iosRank ? '<span class="rank-badge">#' + iosRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
-                    '<td class="rating-cell">' + (androidRating ? androidRating.toFixed(1) : '-') + '</td>' +
-                    '<td class="rating-cell">' + (iosRating ? iosRating.toFixed(1) : '-') + '</td>' +
-                    '<td class="downloads-cell">' + (downloads || '-') + '</td>' +
+                    '<td><div class="app-name-cell"><div class="app-icon">' + getAppIcon(item.id) + '</div>' + item.name + '</div></td>' +
+                    '<td class="rank-cell">' + (item.androidRank ? '<span class="rank-badge">#' + item.androidRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
+                    '<td class="rank-cell">' + (item.iosRank ? '<span class="rank-badge">#' + item.iosRank + '</span>' : '<span class="rank-unranked">-</span>') + '</td>' +
+                    '<td class="rating-cell">' + (item.androidRating ? item.androidRating.toFixed(1) : '-') + '</td>' +
+                    '<td class="rating-cell">' + (item.iosRating ? item.iosRating.toFixed(1) : '-') + '</td>' +
+                    '<td class="downloads-cell">' + (item.downloads || '-') + '</td>' +
                 '</tr>';
             });
 
             body.innerHTML = rows.join('');
         }
 
-        function renderIAP() {
-            var container = document.getElementById('iapContainer');
+        function renderRankings() {
+            if (!allData || !allData.apps) {
+                var body = document.getElementById('rankingsBody');
+                body.innerHTML = '<tr><td colspan="6" class="no-results">No data available.</td></tr>';
+                return;
+            }
+
+            var rankings = allData.rankings || { android: {}, ios: {} };
+
+            rankingsData = allData.apps.map(function(app) {
+                var androidRank = rankings.android[app.id];
+                var iosRank = rankings.ios[app.id];
+                var androidRating = app.platforms.android ? app.platforms.android.rating : null;
+                var iosRating = app.platforms.ios ? app.platforms.ios.rating : null;
+                var downloads = app.platforms.android ? app.platforms.android.downloads : 'N/A';
+
+                return {
+                    id: app.id,
+                    name: app.name,
+                    androidRank: androidRank,
+                    iosRank: iosRank,
+                    androidRating: androidRating,
+                    iosRating: iosRating,
+                    downloads: downloads
+                };
+            });
+
+            renderRankingsTable();
+        }
+
+        function renderPricing(subscriptions) {
+            var container = document.getElementById('pricingContainer');
+            if (!subscriptions || subscriptions.length === 0) {
+                container.innerHTML = '<div class="no-results">No pricing data available.</div>';
+                return;
+            }
+
+            // Create a map for quick lookup
+            var subMap = {};
+            subscriptions.forEach(function(sub) {
+                subMap[sub.id] = sub;
+            });
+
+            // Render all apps, with or without subscription data
+            var html = allData.apps.map(function(app) {
+                var sub = subMap[app.id];
+
+                if (!sub || !sub.plans || sub.plans.length === 0) {
+                    return '<div class="pricing-card">' +
+                        '<div class="pricing-card-header">' +
+                            '<div class="app-icon">' + getAppIcon(app.id) + '</div>' +
+                            '<h3>' + app.name + '</h3>' +
+                        '</div>' +
+                        '<div class="pricing-card-empty">Pricing information not available yet</div>' +
+                    '</div>';
+                }
+
+                var plansHtml = sub.plans.map(function(plan) {
+                    var featuresHtml = '';
+                    if (plan.features && plan.features.length > 0) {
+                        featuresHtml = '<div class="plan-features">' +
+                            plan.features.map(function(feature) {
+                                return '<span class="plan-feature-tag">' + feature + '</span>';
+                            }).join('') +
+                        '</div>';
+                    }
+
+                    return '<div class="pricing-plan">' +
+                        '<div class="plan-header">' +
+                            '<span class="plan-name">' + (plan.name || 'Standard') + '</span>' +
+                            '<span class="plan-price">' + plan.price + '</span>' +
+                        '</div>' +
+                        '<div class="plan-duration">' + plan.duration + '</div>' +
+                        '<div class="plan-billed">' + plan.billedAs + '</div>' +
+                        featuresHtml +
+                    '</div>';
+                }).join('');
+
+                return '<div class="pricing-card">' +
+                    '<div class="pricing-card-header">' +
+                        '<div class="app-icon">' + getAppIcon(app.id) + '</div>' +
+                        '<h3>' + app.name + '</h3>' +
+                    '</div>' +
+                    plansHtml +
+                '</div>';
+            }).join('');
+
+            container.innerHTML = html;
+        }
+
+        function renderPricingFallback() {
+            var container = document.getElementById('pricingContainer');
             if (!allData || !allData.iap) {
                 container.innerHTML = '<div class="no-results">No pricing data available.</div>';
                 return;
             }
 
+            // Fallback to showing basic IAP info if subscriptions.json not available
             container.innerHTML = allData.iap.map(function(app) {
-                var androidPrice = app.android ? (app.android.free ? '<span class="badge-free">Free</span>' : '<span class="badge-paid">$' + app.android.price + '</span>') : '<span class="rank-unranked">N/A</span>';
-                var iosPrice = app.ios ? (app.ios.free ? '<span class="badge-free">Free</span>' : '<span class="badge-paid">$' + app.ios.price + '</span>') : '<span class="rank-unranked">N/A</span>';
-                var iapHtml = '';
+                var iapInfo = '';
                 if (app.android && app.android.offersIAP) {
-                    iapHtml = '<div class="iap-row"><span class="iap-label">In-App Purchases</span><span class="iap-value"><span class="badge-iap">' + (app.android.iapRange || 'Yes') + '</span></span></div>';
+                    iapInfo = '<div class="pricing-card-empty">In-App Purchases: ' + (app.android.iapRange || 'Available') + '<br><small>Detailed pricing coming soon</small></div>';
+                } else {
+                    iapInfo = '<div class="pricing-card-empty">Pricing information not available yet</div>';
                 }
 
-                return '<div class="iap-card">' +
-                    '<div class="iap-card-header"><div class="app-icon">' + getAppIcon(app.id) + '</div><h3>' + app.name + '</h3></div>' +
-                    '<div class="iap-row"><span class="iap-label">Android</span><span class="iap-value">' + androidPrice + '</span></div>' +
-                    '<div class="iap-row"><span class="iap-label">iOS</span><span class="iap-value">' + iosPrice + '</span></div>' +
-                    iapHtml +
+                return '<div class="pricing-card">' +
+                    '<div class="pricing-card-header"><div class="app-icon">' + getAppIcon(app.id) + '</div><h3>' + app.name + '</h3></div>' +
+                    iapInfo +
                 '</div>';
             }).join('');
         }
@@ -884,6 +1116,13 @@
         document.getElementById('platformFilter').addEventListener('change', applyFilters);
         document.getElementById('appFilter').addEventListener('change', applyFilters);
         document.getElementById('searchInput').addEventListener('input', applyFilters);
+
+        // Rankings table sorting
+        document.querySelectorAll('.rankings-table thead th.sortable').forEach(function(th) {
+            th.addEventListener('click', function() {
+                sortRankings(this.dataset.column);
+            });
+        });
 
         document.addEventListener('DOMContentLoaded', loadData);
     </script>
