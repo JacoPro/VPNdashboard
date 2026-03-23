@@ -9,7 +9,7 @@
           "version": "9.1.0",
           "lastUpdated": "2026-03-12",
           "notes": "• Our home screen widgets now come with a beautiful new design and more one-tap controls. Connect to your preferred location, pause, or disconnect in seconds.",
-          "rating": 4.6635,
+          "rating": 4.66347,
           "downloads": "N/A",
           "size": "244292608",
           "developer": "Nordvpn S.A.",
@@ -177,7 +177,7 @@
           "version": "2026.1",
           "lastUpdated": "2026-03-13",
           "notes": "Show recently used locations in selection view.\nAdd localization support.\nImprove connection reliability when censored.\nAsk user permission to deliver notifications.\nShow inactive servers in relay list.\nAdd notification settings.\nImprove accessibility in location and main views.",
-          "rating": 4.13955,
+          "rating": 4.14022,
           "downloads": "N/A",
           "size": "47909888",
           "developer": "Mullvad VPN AB",
@@ -776,7 +776,7 @@
           "version": "11.12.0",
           "lastUpdated": "2026-01-21",
           "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
-          "rating": 4.5093174,
+          "rating": 4.5092864,
           "downloads": "100,000,000+",
           "developer": "Anchorfree LLC",
           "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
@@ -1062,7 +1062,7 @@
       "version": "2026.1",
       "lastUpdated": "2026-03-13",
       "notes": "Show recently used locations in selection view.\nAdd localization support.\nImprove connection reliability when censored.\nAsk user permission to deliver notifications.\nShow inactive servers in relay list.\nAdd notification settings.\nImprove accessibility in location and main views.",
-      "rating": 4.13955,
+      "rating": 4.14022,
       "downloads": "N/A",
       "size": "47909888",
       "developer": "Mullvad VPN AB",
@@ -1091,7 +1091,7 @@
       "version": "9.1.0",
       "lastUpdated": "2026-03-12",
       "notes": "• Our home screen widgets now come with a beautiful new design and more one-tap controls. Connect to your preferred location, pause, or disconnect in seconds.",
-      "rating": 4.6635,
+      "rating": 4.66347,
       "downloads": "N/A",
       "size": "244292608",
       "developer": "Nordvpn S.A.",
@@ -2124,7 +2124,7 @@
       "version": "11.12.0",
       "lastUpdated": "2026-01-21",
       "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
-      "rating": 4.5093174,
+      "rating": 4.5092864,
       "downloads": "100,000,000+",
       "developer": "Anchorfree LLC",
       "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
@@ -4493,7 +4493,7 @@
     "recentUpdates": 4,
     "androidApps": 109,
     "iosApps": 139,
-    "lastUpdated": "2026-03-23T04:28:10.330Z"
+    "lastUpdated": "2026-03-23T07:15:51.310Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/00/e8/2600e817-a04f-9cb2-3dca-76f2e006cf04/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4849,16 +4849,16 @@
   ],
   "rankings": {
     "android": {
-      "proton": 15,
-      "nord": 37,
+      "proton": 11,
+      "nord": 36,
       "express": 71,
-      "surfshark": 93
+      "surfshark": 90
     },
     "ios": {}
   },
   "totalApps": 28,
   "metadata": {
-    "generatedAt": "2026-03-23T04:28:13.565Z",
+    "generatedAt": "2026-03-23T07:15:54.779Z",
     "totalExecutionTime": 91,
     "successfulApps": 27
   }
