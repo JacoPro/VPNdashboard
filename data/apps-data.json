@@ -225,7 +225,7 @@
           "version": "8.96.68",
           "lastUpdated": "2026-03-10",
           "notes": "This update includes minor improvements and behind-the-scenes optimizations to keep everything running smoothly.",
-          "rating": 3.3918128,
+          "rating": 3.3883212,
           "downloads": "5,000,000+",
           "developer": "PureVPN",
           "url": "https://play.google.com/store/apps/details?id=com.gaditek.purevpnics&hl=en&gl=us",
@@ -242,7 +242,7 @@
           "version": "9.66.0",
           "lastUpdated": "2026-03-28",
           "notes": "This one’s a quiet update. A few thoughtful tweaks and refinements to keep everything running smoother than ever.",
-          "rating": 4.36517,
+          "rating": 4.36452,
           "downloads": "N/A",
           "size": "613716992",
           "developer": "PureVPN",
@@ -307,7 +307,7 @@
           "version": "6.1.1",
           "lastUpdated": "2026-03-15",
           "notes": "- Redesigned dashboard for Mobile and TV<br>- Improved SSTP with IPv6 support<br>- WireGuard stability enhancements<br>- SmartGuard now available on Android TV<br>- New speed indicators<br>- Added Korean language<br>- Bug fixes and performance improvements",
-          "rating": 4.406883,
+          "rating": 4.409274,
           "downloads": "1,000,000+",
           "developer": "eVenture Limited",
           "url": "https://play.google.com/store/apps/details?id=hideme.android.vpn&hl=en&gl=us",
@@ -776,7 +776,7 @@
           "version": "11.12.0",
           "lastUpdated": "2026-01-21",
           "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
-          "rating": 4.5094867,
+          "rating": 4.5093584,
           "downloads": "100,000,000+",
           "developer": "Anchorfree LLC",
           "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
@@ -900,7 +900,7 @@
       "version": "9.66.0",
       "lastUpdated": "2026-03-28",
       "notes": "This one’s a quiet update. A few thoughtful tweaks and refinements to keep everything running smoother than ever.",
-      "rating": 4.36517,
+      "rating": 4.36452,
       "downloads": "N/A",
       "size": "613716992",
       "developer": "PureVPN",
@@ -1167,7 +1167,7 @@
       "version": "6.1.1",
       "lastUpdated": "2026-03-15",
       "notes": "- Redesigned dashboard for Mobile and TV<br>- Improved SSTP with IPv6 support<br>- WireGuard stability enhancements<br>- SmartGuard now available on Android TV<br>- New speed indicators<br>- Added Korean language<br>- Bug fixes and performance improvements",
-      "rating": 4.406883,
+      "rating": 4.409274,
       "downloads": "1,000,000+",
       "developer": "eVenture Limited",
       "url": "https://play.google.com/store/apps/details?id=hideme.android.vpn&hl=en&gl=us",
@@ -1254,7 +1254,7 @@
       "version": "8.96.68",
       "lastUpdated": "2026-03-10",
       "notes": "This update includes minor improvements and behind-the-scenes optimizations to keep everything running smoothly.",
-      "rating": 3.3918128,
+      "rating": 3.3883212,
       "downloads": "5,000,000+",
       "developer": "PureVPN",
       "url": "https://play.google.com/store/apps/details?id=com.gaditek.purevpnics&hl=en&gl=us",
@@ -2258,7 +2258,7 @@
       "version": "11.12.0",
       "lastUpdated": "2026-01-21",
       "notes": "- Improved VPN speeds for an even faster streaming and gaming experience.<br>- Enhanced user interface for seamless, one-tap connection.<br>- Bug fixes and performance improvements.<br>Stay secure with the fastest VPN for streaming, gaming, and unlimited internet access!",
-      "rating": 4.5094867,
+      "rating": 4.5093584,
       "downloads": "100,000,000+",
       "developer": "Anchorfree LLC",
       "url": "https://play.google.com/store/apps/details?id=hotspotshield.android.vpn&hl=en&gl=us",
@@ -4627,7 +4627,7 @@
     "recentUpdates": 8,
     "androidApps": 110,
     "iosApps": 147,
-    "lastUpdated": "2026-03-30T04:44:10.149Z"
+    "lastUpdated": "2026-03-30T07:47:22.874Z"
   },
   "appIcons": {
     "nord": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/b7/56/e9b756bc-8ea9-3857-ce5d-099ed629233f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4983,17 +4983,17 @@
   ],
   "rankings": {
     "android": {
-      "proton": 7,
+      "proton": 11,
       "nord": 23,
-      "express": 94,
-      "surfshark": 96
+      "express": 96,
+      "surfshark": 98
     },
     "ios": {}
   },
   "totalApps": 28,
   "metadata": {
-    "generatedAt": "2026-03-30T04:44:13.697Z",
-    "totalExecutionTime": 91,
+    "generatedAt": "2026-03-30T07:47:26.495Z",
+    "totalExecutionTime": 90,
     "successfulApps": 27
   }
 }
