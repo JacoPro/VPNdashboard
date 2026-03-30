@@ -522,6 +522,156 @@
             color: var(--accent);
         }
 
+        /* Store Assets section */
+        .assets-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .asset-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-raised);
+            overflow: hidden;
+        }
+
+        .asset-card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .asset-card-header .app-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            font-size: 0.625rem;
+        }
+
+        .asset-card-header h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .asset-card-header .screenshot-count {
+            margin-left: auto;
+            font-size: 0.6875rem;
+            color: var(--text-tertiary);
+        }
+
+        .screenshots-row {
+            display: flex;
+            gap: 10px;
+            padding: 14px 16px;
+            overflow-x: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border) transparent;
+        }
+
+        .screenshots-row::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .screenshots-row::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .screenshots-row::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .screenshot-thumb {
+            flex-shrink: 0;
+            width: auto;
+            height: 220px;
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            object-fit: cover;
+            cursor: pointer;
+            transition: opacity 0.15s, border-color 0.15s;
+        }
+
+        .screenshot-thumb:hover {
+            opacity: 0.85;
+            border-color: var(--accent);
+        }
+
+        /* Lightbox */
+        .lightbox-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.88);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-overlay.open {
+            display: flex;
+        }
+
+        .lightbox-img {
+            max-height: 90vh;
+            max-width: 90vw;
+            border-radius: 10px;
+            object-fit: contain;
+            box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 24px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            line-height: 1;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: color 0.15s;
+        }
+
+        .lightbox-close:hover { color: var(--text-primary); }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.08);
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 12px 16px;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+        .lightbox-nav:hover { background: rgba(255,255,255,0.16); }
+        .lightbox-nav.prev { left: 16px; }
+        .lightbox-nav.next { right: 16px; }
+
+        .lightbox-counter {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.8125rem;
+            color: var(--text-tertiary);
+        }
+
+        .assets-filter {
+            margin-bottom: 20px;
+        }
+
         /* States */
         .loading, .no-results, .error-state {
             text-align: center;
@@ -607,6 +757,7 @@
             <button class="nav-tab active" data-section="updates">Updates</button>
             <button class="nav-tab" data-section="rankings">Rankings</button>
             <button class="nav-tab" data-section="pricing">Pricing &amp; IAP</button>
+            <button class="nav-tab" data-section="assets">App Store Assets</button>
         </nav>
 
         <!-- Updates Section -->
@@ -673,6 +824,26 @@
                 <div class="loading">Loading pricing data...</div>
             </div>
         </section>
+
+        <!-- App Store Assets Section -->
+        <section id="section-assets" class="section">
+            <div class="assets-filter">
+                <div class="filter-group filter-search">
+                    <label for="assetsSearch">Search</label>
+                    <input type="text" id="assetsSearch" placeholder="Filter by app name...">
+                </div>
+            </div>
+            <div id="assetsContainer" class="assets-grid"></div>
+        </section>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox-overlay" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&#x2715;</button>
+        <button class="lightbox-nav prev" id="lightboxPrev">&#8249;</button>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <button class="lightbox-nav next" id="lightboxNext">&#8250;</button>
+        <span class="lightbox-counter" id="lightboxCounter"></span>
     </div>
 
     <script>
@@ -880,12 +1051,136 @@
             }).join('');
         }
 
+        // App Store Assets data - maps dashboard app IDs to display names and screenshot counts
+        var storeAssets = [
+            { id: 'adguard',      name: 'AdGuard VPN',            count: 6 },
+            { id: 'astrill',      name: 'Astrill VPN',            count: 4 },
+            { id: 'bitdefender',  name: 'Bitdefender VPN',        count: 5 },
+            { id: 'clearvpn',     name: 'ClearVPN',               count: 6 },
+            { id: 'cyberghost',   name: 'CyberGhost VPN',         count: 6 },
+            { id: 'express',      name: 'ExpressVPN',             count: 6 },
+            { id: 'hideme',       name: 'Hide.me VPN',            count: 5 },
+            { id: 'hma',          name: 'HMA VPN',                count: 5 },
+            { id: 'hotspotshield',name: 'Hotspot Shield',         count: 5 },
+            { id: 'ipvanish',     name: 'IPVanish',               count: 5 },
+            { id: 'ivpn',         name: 'IVPN',                   count: 6 },
+            { id: 'mullvad',      name: 'Mullvad VPN',            count: 6 },
+            { id: 'nord',         name: 'NordVPN',                count: 6 },
+            { id: 'ovpn',         name: 'OVPN',                   count: 6 },
+            { id: 'pia',          name: 'Private Internet Access',count: 6 },
+            { id: 'privado',      name: 'PrivadoVPN',             count: 5 },
+            { id: 'proton',       name: 'Proton VPN',             count: 6 },
+            { id: 'purevpn',      name: 'PureVPN',                count: 6 },
+            { id: 'surfshark',    name: 'Surfshark VPN',          count: 5 },
+            { id: 'torguard',     name: 'TorGuard VPN',           count: 5 },
+            { id: 'tunnelbear',   name: 'TunnelBear VPN',         count: 6 },
+            { id: 'veepn',        name: 'VeePN',                  count: 4 },
+            { id: 'vpnac',        name: 'VPN.ac',                 count: 2 },
+            { id: 'windscribe',   name: 'Windscribe VPN',         count: 5 },
+            { id: 'vyprvpn',      name: 'VyprVPN',                count: 5 }
+        ];
+
+        var lightboxImages = [];
+        var lightboxIndex = 0;
+
+        function openLightbox(images, index) {
+            lightboxImages = images;
+            lightboxIndex = index;
+            updateLightbox();
+            document.getElementById('lightbox').classList.add('open');
+        }
+
+        function updateLightbox() {
+            document.getElementById('lightboxImg').src = lightboxImages[lightboxIndex];
+            document.getElementById('lightboxCounter').textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
+        }
+
+        document.getElementById('lightboxClose').addEventListener('click', function() {
+            document.getElementById('lightbox').classList.remove('open');
+        });
+
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) this.classList.remove('open');
+        });
+
+        document.getElementById('lightboxPrev').addEventListener('click', function() {
+            lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+            updateLightbox();
+        });
+
+        document.getElementById('lightboxNext').addEventListener('click', function() {
+            lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+            updateLightbox();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            var lb = document.getElementById('lightbox');
+            if (!lb.classList.contains('open')) return;
+            if (e.key === 'Escape') lb.classList.remove('open');
+            if (e.key === 'ArrowLeft') { lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length; updateLightbox(); }
+            if (e.key === 'ArrowRight') { lightboxIndex = (lightboxIndex + 1) % lightboxImages.length; updateLightbox(); }
+        });
+
+        function renderAssets(filter) {
+            var container = document.getElementById('assetsContainer');
+            var term = (filter || '').toLowerCase();
+            var filtered = storeAssets.filter(function(app) {
+                return !term || app.name.toLowerCase().indexOf(term) !== -1;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="no-results">No apps found.</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(function(app) {
+                var images = [];
+                for (var i = 1; i <= app.count; i++) {
+                    images.push('./assets/store-screenshots/' + app.id + '/' + (i < 10 ? '0' + i : i) + '.jpg');
+                }
+
+                var thumbsHtml = images.map(function(src, idx) {
+                    return '<img class="screenshot-thumb" src="' + src + '" alt="' + app.name + ' screenshot ' + (idx + 1) + '" data-app="' + app.id + '" data-index="' + idx + '" loading="lazy">';
+                }).join('');
+
+                return '<div class="asset-card">' +
+                    '<div class="asset-card-header">' +
+                        '<div class="app-icon">' + (allData ? getAppIcon(app.id) : (textIcons[app.id] || app.name.charAt(0))) + '</div>' +
+                        '<h3>' + app.name + '</h3>' +
+                        '<span class="screenshot-count">' + app.count + ' screenshots &middot; iOS App Store</span>' +
+                    '</div>' +
+                    '<div class="screenshots-row" data-app-id="' + app.id + '">' + thumbsHtml + '</div>' +
+                '</div>';
+            }).join('');
+
+            // Attach lightbox click handlers
+            container.querySelectorAll('.screenshot-thumb').forEach(function(img) {
+                img.addEventListener('click', function() {
+                    var appId = this.dataset.app;
+                    var idx = parseInt(this.dataset.index);
+                    var appData = storeAssets.find(function(a) { return a.id === appId; });
+                    var imgs = [];
+                    for (var i = 1; i <= appData.count; i++) {
+                        imgs.push('./assets/store-screenshots/' + appId + '/' + (i < 10 ? '0' + i : i) + '.jpg');
+                    }
+                    openLightbox(imgs, idx);
+                });
+            });
+        }
+
+        document.getElementById('assetsSearch').addEventListener('input', function() {
+            renderAssets(this.value);
+        });
+
         // Event listeners
         document.getElementById('platformFilter').addEventListener('change', applyFilters);
         document.getElementById('appFilter').addEventListener('change', applyFilters);
         document.getElementById('searchInput').addEventListener('input', applyFilters);
 
-        document.addEventListener('DOMContentLoaded', loadData);
+        document.addEventListener('DOMContentLoaded', function() {
+            loadData();
+            renderAssets('');
+        });
     </script>
 </body>
 </html>
